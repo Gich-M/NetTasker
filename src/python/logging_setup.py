@@ -8,7 +8,7 @@ def logging_setup(log_level: str, log_file: str, error_log_file: str) -> None:
     Sets up logging for the TaskProcessor.
 
     Args:
-        log_level (str): The logg level (e.g., DEBUG, INFO, WARNING, ERROR).
+        log_level (str): The log level (e.g., DEBUG, INFO, WARNING, ERROR).
         log_file (str): The file path for the main log file.
         error_log_file (str): The file path for the error log file.
 
