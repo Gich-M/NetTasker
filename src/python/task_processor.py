@@ -16,11 +16,11 @@ class TaskProcessor:
     A class for processing tasks related to IP address data.
 
     Attributes:
-    config (Config): The configuration object for the TaskProcessor.
-    ip_counter (Counter): A Counter object to keep track of IP occurrences.
-    ip_data (defaultdict): A defaultdict to store IP data.
-    unique_ips (set): A set to store unique IP addresses.
-    top_n (int): The number of top IPs to retrieve.
+        config (Config): The configuration object for the TaskProcessor.
+        ip_counter (Counter): A Counter object to keep track of IP occurrences.
+        ip_data (defaultdict): A defaultdict to store IP data.
+        unique_ips (set): A set to store unique IP addresses.
+        top_n (int): The number of top IPs to retrieve.
     """
 
     def __init__(self, config: Config):
@@ -28,7 +28,7 @@ class TaskProcessor:
         Initializes the TaskProcessor with the given configuration.
 
         Args:
-        config (Config): The configuration object for the TaskProcessor.
+            config (Config): The configuration object for the TaskProcessor.
         """
         logger.debug("Initializing TaskProcessor")
         self.config = config
@@ -55,8 +55,8 @@ class TaskProcessor:
         Reads IP addresses from a file and returns them as a list of tuples.
 
         Returns:
-        List[Tuple[str, int, int, int, int]]: A list of tuples containing
-            IP addresses and their corresponding octets.
+            List[Tuple[str, int, int, int, int]]: A list of tuples containing
+                IP addresses and their corresponding octets.
         """
         try:
             with open(self.config.file.file_path, "r", encoding='utf-8') as f:
@@ -97,10 +97,10 @@ class TaskProcessor:
         Processes the IP data and returns the result.
 
         Args:
-        data (List[Any]): The IP data to process.
+            data (List[Any]): The IP data to process.
 
         Returns:
-        Dict[str, Any]: The result of the processing.
+            Dict[str, Any]: The result of the processing.
         """
         ip_id = str(data[0])
         self.ip_counter[ip_id] += 1
@@ -119,10 +119,10 @@ class TaskProcessor:
         Processes the tasks and returns the results.
 
         Args:
-        tasks (List[Dict[str, Any]]): The tasks to process.
+            tasks (List[Dict[str, Any]]): The tasks to process.
 
         Returns:
-        List[Dict[str, Any]]: The results of the processing.
+            List[Dict[str, Any]]: The results of the processing.
         """
         results = []
         for task in tasks:
@@ -143,11 +143,11 @@ class TaskProcessor:
         Distributes tasks among workers.
 
         Args:
-        tasks (List[Dict[str, Any]]): The tasks to distribute.
-        workers (List[Dict[str, Any]]): The workers to distribute tasks to.
+            tasks (List[Dict[str, Any]]): The tasks to distribute.
+            workers (List[Dict[str, Any]]): The workers to distribute tasks to.
 
         Returns:
-        List[Dict[str, Any]]: The distributed tasks.
+            List[Dict[str, Any]]: The distributed tasks.
         """
         distributed_tasks = []
         for i, task in enumerate(tasks):
@@ -176,7 +176,7 @@ class TaskProcessor:
         Gets the IP statistics.
 
         Returns:
-        Dict[str, Any]: The IP statistics.
+            Dict[str, Any]: The IP statistics.
         """
         total_ips = sum(self.ip_counter.values())
         unique_ips = len(self.unique_ips)
@@ -191,7 +191,7 @@ class TaskProcessor:
         Gets the top N (most redundant) IPs.
 
         Returns:
-        List[Tuple[str, int]]: The top N IPs.
+            List[Tuple[str, int]]: The top N IPs.
         """
         return self.ip_counter.most_common(self.top_n)
 
@@ -200,10 +200,10 @@ class TaskProcessor:
         Gets the IP data summary.
 
         Args:
-        ip_id (str): The IP address to get the data summary for.
+            ip_id (str): The IP address to get the data summary for.
 
         Returns:
-        Dict[str, Any]: The IP data summary.
+            Dict[str, Any]: The IP data summary.
         """
         if ip_id not in self.ip_data:
             return {}
@@ -221,7 +221,7 @@ class TaskProcessor:
         Gets the overall statistics.
 
         Returns:
-        Dict[str, Any]: The overall statistics.
+            Dict[str, Any]: The overall statistics.
         """
         return {
             "ip_statistics": self.get_ip_stats(),
