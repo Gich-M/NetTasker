@@ -26,7 +26,7 @@ async def create_http_server(
         host: The host to bind the server to.
         port: The port to bind the server to.
 
-    Returns:
+    Return:
         A tuple containing the host, port, and AppRunner instance.
     """
     logger.info("Creating HTTP server on %s:%s", host, port)
@@ -73,7 +73,7 @@ async def health_check(url: str, timeout: float = 5.0) -> bool:
         url: The URL to check.
         timeout: The timeout for the request. Defaults to 5.0 seconds.
 
-    Returns:
+    Return:
         True if the health check was successful, False otherwise.
     """
     logger.debug("Performing health check on %s", url)
@@ -103,7 +103,7 @@ async def check_nginx_health(url: str, timeout: float = 5.0) -> bool:
         url: The URL to check.
         timeout: The timeout for the request. Defaults to 5.0 seconds.
 
-    Returns:
+    Return:
         True if Nginx is healthy, False otherwise.
     """
     logger.debug("Checking Nginx health on %s", url)
@@ -145,7 +145,7 @@ async def send_http_task(
             - method: HTTP method to use. Defaults to 'POST'.
             - expect_json: Whether to expect a JSON response. Defaults to True.
 
-    Returns:
+    Return:
         A dictionary containing the success status and
             either the response data or error message.
     """
@@ -193,7 +193,7 @@ async def receive_http_result(
         url: The URL to fetch results from.
         timeout: Timeout for the request in seconds. Defaults to 5.0.
 
-    Returns:
+    Return:
         The JSON response containing the results.
 
     Raises:
