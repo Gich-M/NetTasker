@@ -86,7 +86,7 @@ class Worker:
 
             try:
                 stdout, stderr = await asyncio.wait_for(
-                        process.communicate(), timeout=10.0)
+                    process.communicate(), timeout=10.0)
             except asyncio.TimeoutError:
                 self.logger.warning(
                     "Timeout while waiting for worker %s output",
@@ -116,7 +116,7 @@ class Worker:
 
             await asyncio.sleep(5)
             is_healthy = await check_node_health(
-                    self.config.processor.host, self.port)
+                self.config.processor.host, self.port)
             if is_healthy:
                 self.logger.info(
                     "Worker %s initialized successfully", self.worker_id)
