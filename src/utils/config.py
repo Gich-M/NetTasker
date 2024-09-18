@@ -6,6 +6,7 @@ This module provides configuration management for the distributed
 import logging
 from dataclasses import dataclass
 from configparser import ConfigParser
+from typing import List
 
 logger = logging.getLogger(__name__)
 
@@ -97,8 +98,8 @@ class Config:
             'config/processor_config.ini'.
         """
         logger.debug("Initializing Config with file: %s", config_file)
-        self.config_file = config_file
-        self.config = ConfigParser()
+        self.config_file: str = config_file
+        self.config: ConfigParser = ConfigParser()
         self.reload_config()
         logger.debug("Config initialized successfully")
 
@@ -121,13 +122,13 @@ class Config:
             raise FileNotFoundError(
                 f"Config file not found: {self.config_file}")
         self.validate_config()
-        self.processor = self._load_processor_config()
-        self.task = self._load_task_config()
-        self.file = self._load_file_config()
-        self.log = self._load_log_config()
-        self.nginx = self._load_nginx_config()
-        self.performance = self._load_performance_config()
-        self.scaling = self._load_scaling_config()
+        self.processor: ProcessorConfig = self._load_processor_config()
+        self.task: TaskConfig = self._load_task_config()
+        self.file: FileConfig = self._load_file_config()
+        self.log: LogConfig = self._load_log_config()
+        self.nginx: NginxConfig = self._load_nginx_config()
+        self.performance: PerformanceConfig = self._load_performance_config()
+        self.scaling: ScalingConfig = self._load_scaling_config()
         logger.debug("Config reloaded successfully")
 
     def validate_config(self) -> None:
@@ -140,7 +141,7 @@ class Config:
         Raises:
             ValueError: If a required section or field is missing.
         """
-        required_sections = [
+        required_sections: List[str] = [
             'Processor',
             'Task',
             'File',
@@ -152,7 +153,7 @@ class Config:
             if section not in self.config:
                 raise ValueError(f"Missing required section: {section}")
 
-        required_fields = {
+        required_fields: dict[str, List[str]] = {
             'Processor': [
                 'host',
                 'port',
@@ -301,12 +302,12 @@ class Config:
                 'Scaling',
                 'min_workers'))
 
-    def get_worker_ports(self):
+    def get_worker_ports(self) -> List[int]:
         """
         Returns the list of worker ports.
 
         Return:
-            list: A list of ports for workers.
+            List[int]: A list of ports for workers.
         """
         return list(
             range(

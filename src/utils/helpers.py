@@ -15,7 +15,8 @@ async def check_node_health(
         port: int,
         timeout: float = 5.0) -> bool:
     """
-    Checks the health of a node by sending a GET request to its health endpoint.
+    Checks the health of a node by sending a GET request
+        to its health endpoint.
 
     Args:
         host: The hostname of the node.
