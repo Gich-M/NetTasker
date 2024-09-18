@@ -1,6 +1,6 @@
 """
-    HTTP utility functions for creating, starting, and
-    stopping servers, and handling tasks.
+    HTTP utility functions for creating, starting,
+        and stopping servers, and handling tasks.
 """
 
 import asyncio
@@ -22,12 +22,12 @@ async def create_http_server(
     Creates an HTTP server.
 
     Args:
-        app (web.Application): The aiohttp application.
-        host (str): The host to bind the server to.
-        port (int): The port to bind the server to.
+        app: The aiohttp application.
+        host: The host to bind the server to.
+        port: The port to bind the server to.
 
     Returns:
-        Tuple[str, int, web.AppRunner]: The host, port, and AppRunner instance.
+        A tuple containing the host, port, and AppRunner instance.
     """
     logger.info("Creating HTTP server on %s:%s", host, port)
     runner = web.AppRunner(app)
@@ -41,7 +41,7 @@ async def start_http_server(runner: web.AppRunner) -> None:
     Starts the HTTP server.
 
     Args:
-        runner (web.AppRunner): The AppRunner instance to start.
+        runner: The AppRunner instance to start.
     """
     logger.info("Starting HTTP server")
     await runner.setup()
@@ -58,24 +58,23 @@ async def stop_http_server(runner: web.AppRunner) -> None:
     Stops the HTTP server.
 
     Args:
-        runner (web.AppRunner): The AppRunner instance to stop.
+        runner: The AppRunner instance to stop.
     """
     logger.info("Stopping HTTP server")
     await runner.cleanup()
     logger.info("HTTP server stopped")
 
 
-async def health_check(url: str, timeout: float = 5) -> bool:
+async def health_check(url: str, timeout: float = 5.0) -> bool:
     """
     Performs a health check on the given URL.
 
     Args:
-        url (str): The URL to check.
-        timeout (float, optional): The timeout for the request.
-            Defaults to 5 seconds.
+        url: The URL to check.
+        timeout: The timeout for the request. Defaults to 5.0 seconds.
 
     Returns:
-        bool: True if the health check was successful, False otherwise.
+        True if the health check was successful, False otherwise.
     """
     logger.debug("Performing health check on %s", url)
     async with aiohttp.ClientSession() as session:
@@ -96,17 +95,16 @@ async def health_check(url: str, timeout: float = 5) -> bool:
             return False
 
 
-async def check_nginx_health(url: str, timeout: float = 5) -> bool:
+async def check_nginx_health(url: str, timeout: float = 5.0) -> bool:
     """
     Checks the health of Nginx at the given URL.
 
     Args:
-        url (str): The URL to check.
-        timeout (float, optional): The timeout for the request.
-            Defaults to 5 seconds.
+        url: The URL to check.
+        timeout: The timeout for the request. Defaults to 5.0 seconds.
 
     Returns:
-        bool: True if Nginx is healthy, False otherwise.
+        True if Nginx is healthy, False otherwise.
     """
     logger.debug("Checking Nginx health on %s", url)
     async with aiohttp.ClientSession() as session:
@@ -138,20 +136,17 @@ async def send_http_task(
     Sends an HTTP task to the specified URL.
 
     Args:
-        task_logger (logging.Logger): Logger instance for logging messages.
-        session (aiohttp.ClientSession): The aiohttp ClientSession to use
-            for the request.
-        url (str): The base URL to send the task to.
-        task (Dict[str, Any]): The task data to send.
-        config (Dict[str, Any]): Configuration dictionary containing:
-            - timeout (float): Timeout for the request in seconds.
-                Defaults to 5.0.
-            - method (str): HTTP method to use. Defaults to 'POST'.
-            - expect_json (bool): Whether to expect a JSON response.
-                Defaults to True.
+        task_logger: Logger instance for logging messages.
+        session: The aiohttp ClientSession to use for the request.
+        url: The base URL to send the task to.
+        task: The task data to send.
+        config: Configuration dictionary containing:
+            - timeout: Timeout for the request in seconds. Defaults to 5.0.
+            - method: HTTP method to use. Defaults to 'POST'.
+            - expect_json: Whether to expect a JSON response. Defaults to True.
 
     Returns:
-        Dict[str, Any]: A dictionary containing the success status and
+        A dictionary containing the success status and
             either the response data or error message.
     """
     task_id = task.get('task_id', 'unknown')
@@ -187,17 +182,19 @@ async def send_http_task(
         return {"success": False, "error": error_msg}
 
 
-async def receive_http_result(url: str, timeout: float = 5) -> Dict[str, Any]:
+async def receive_http_result(
+    url: str,
+    timeout: float = 5.0
+) -> Dict[str, Any]:
     """
     Receives HTTP results from the specified URL.
 
     Args:
-        url (str): The URL to fetch results from.
-        timeout (float, optional): Timeout for the request in seconds.
-            Defaults to 5.
+        url: The URL to fetch results from.
+        timeout: Timeout for the request in seconds. Defaults to 5.0.
 
     Returns:
-        Dict[str, Any]: The JSON response containing the results.
+        The JSON response containing the results.
 
     Raises:
         aiohttp.ClientError: If there's an error in receiving the HTTP result.
