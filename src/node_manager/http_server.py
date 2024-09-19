@@ -58,17 +58,21 @@ class HttpServer:
         try:
             data = await request.json()
             task = data.get('task')
+            task_type = data.get('task_type', 'ip_data')
             task_id = str(uuid.uuid4())
             client_ip = self.get_client_ip(request)
             priority_item = PrioritizedItem(
                 priority=1,
                 item={
                     "task": task,
+                    "task_type": task_type,
                     "task_id": task_id,
-                    "client_ip": client_ip})
+                    "client_ip": client_ip
+                })
             await self.task_queue.put(priority_item)
             self.logger.info(
-                f"Task received from {client_ip} and queued: {task_id}")
+                f"Task received from {client_ip} and queued: \
+                    {task_id} (Type: {task_type})")
             return web.json_response(
                 {"message": "Task queued successfully", "task_id": task_id})
         except Exception as e:
