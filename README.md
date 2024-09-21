@@ -27,7 +27,7 @@ The NetTasker is a robust system that efficiently processes network-related task
 - Dynamic worker scaling
 - Health monitoring and automatic recovery
 - RESTful API for task submission and result retrieval
-- Nginx integration for load balancing
+- Nginx integration for load balancing and reverse proxy
 - CLI monitor for easy interaction
 - Comprehensive logging and alerting system
 
@@ -79,3 +79,4 @@ The system consists of the following main components:
 ## Usage
 
 To run the entire system, use the provided script:
+
