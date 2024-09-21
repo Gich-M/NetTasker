@@ -1,4 +1,1870 @@
-2024-08-26 09:04:07,717 - __main__ - INFO - NodeManager initialized
-2024-08-26 09:04:07,718 - __main__ - INFO - NodeManager started
-2024-08-26 09:08:09,027 - __main__ - INFO - NodeManager initialized
-2024-08-26 09:08:09,028 - __main__ - INFO - NodeManager started
+2024-09-19 08:59:18,950 - src.task_processor - DEBUG - TaskProcessor initialized successfully
+2024-09-19 08:59:18,950 - __main__ - INFO - NodeManager started
+2024-09-19 08:59:18,950 - src.ipc.http_utils - INFO - Creating HTTP server on 127.0.0.1:8081
+2024-09-19 08:59:18,950 - __main__ - INFO - NodeManager initialized successfully
+2024-09-19 08:59:18,951 - src.ipc.http_utils - INFO - Starting HTTP server
+2024-09-19 08:59:18,951 - src.ipc.http_utils - INFO - HTTP server started on 127.0.0.1:8081
+2024-09-19 08:59:18,951 - __main__ - INFO - NodeManager is listening on http://127.0.0.1:8081
+2024-09-19 08:59:18,951 - __main__ - INFO - Nginx is listening on http://127.0.0.1:8080
+2024-09-19 08:59:18,951 - __main__ - INFO - NodeManager is running behind Nginx at http://127.0.0.1:8080
+2024-09-19 08:59:18,951 - __main__ - DEBUG - Attempting to start worker worker_1 on port 8082
+2024-09-19 08:59:18,952 - src.node_manager.run_worker - INFO - Starting worker process: worker_1 on port 8082
+2024-09-19 08:59:18,952 - src.node_manager.run_worker - DEBUG - Worker script permissions: 775
+2024-09-19 08:59:18,952 - src.node_manager.run_worker - DEBUG - Worker start command: /home/zilla/Documents/ALX/mini-distributed-task-processor/src/workers/worker 127.0.0.1 8081 worker_1
+2024-09-19 08:59:18,953 - src.node_manager.run_worker - INFO - Worker worker_1 started with PID 608934
+2024-09-19 08:59:19,073 - src.task_processor - DEBUG - TaskProcessor initialized successfully
+2024-09-19 08:59:19,073 - asyncio - DEBUG - Using selector: EpollSelector
+2024-09-19 08:59:19,076 - src.utils.config - DEBUG - Initializing Config with file: config/processor_config.ini
+2024-09-19 08:59:19,076 - src.utils.config - DEBUG - Reloading config from file: config/processor_config.ini
+2024-09-19 08:59:19,077 - src.utils.config - DEBUG - Config reloaded successfully
+2024-09-19 08:59:19,077 - src.utils.config - DEBUG - Config initialized successfully
+2024-09-19 08:59:19,077 - src.task_processor - DEBUG - Initializing TaskProcessor
+2024-09-19 08:59:19,077 - src.task_processor - DEBUG - Setting up logging
+2024-09-19 08:59:19,077 - src.task_processor - DEBUG - TaskProcessor initialized successfully
+2024-09-19 08:59:19,079 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:19,079 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 08:59:19,079 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:19 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 08:59:20,081 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:20,081 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 08:59:20,082 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:20 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 08:59:20,543 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:20,543 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 08:59:20,543 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:20 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 08:59:20,718 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:20,718 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 08:59:20,719 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:20 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 08:59:20,750 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:20,753 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 08:59:20,758 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:20 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 08:59:20,899 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:20,900 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 08:59:20,903 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:20 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 08:59:20,992 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:20,993 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 08:59:20,994 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:20 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 08:59:21,083 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:21,083 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 08:59:21,084 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:21 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 08:59:21,093 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:21,093 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 08:59:21,093 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:21 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 08:59:21,115 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:21,115 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 08:59:21,116 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:21 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 08:59:21,173 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:21,173 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 08:59:21,173 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:21 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 08:59:21,227 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:21,227 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 08:59:21,227 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:21 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 08:59:21,544 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:21,544 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 08:59:21,545 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:21 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 08:59:21,720 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:21,720 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 08:59:21,721 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:21 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 08:59:21,757 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:21,758 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 08:59:21,758 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:21 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 08:59:21,904 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:21,904 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 08:59:21,904 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:21 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 08:59:21,995 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:21,995 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 08:59:21,995 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:21 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 08:59:22,085 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:22,085 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 08:59:22,086 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:22 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 08:59:22,094 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:22,094 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 08:59:22,095 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:22 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 08:59:22,119 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:22,120 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 08:59:22,122 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:22 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 08:59:22,175 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:22,175 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 08:59:22,178 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:22 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 08:59:22,228 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:22,228 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 08:59:22,228 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:22 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 08:59:22,546 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:22,546 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 08:59:22,547 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:22 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 08:59:22,724 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:22,725 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 08:59:22,726 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:22 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 08:59:22,760 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:22,760 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 08:59:22,764 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:22 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 08:59:22,906 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:22,906 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 08:59:22,906 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:22 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 08:59:22,996 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:22,997 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 08:59:22,997 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:22 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 08:59:23,086 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:23,087 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 08:59:23,087 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:23 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 08:59:23,096 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:23,096 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 08:59:23,096 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:23 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 08:59:23,123 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:23,123 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 08:59:23,124 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:23 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 08:59:23,178 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:23,178 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 08:59:23,178 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:23 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 08:59:23,231 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:23,231 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 08:59:23,233 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:23 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 08:59:23,550 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:23,550 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 08:59:23,551 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:23 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 08:59:23,728 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:23,729 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 08:59:23,730 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:23 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 08:59:23,768 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:23,768 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 08:59:23,771 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:23 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 08:59:23,907 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:23,908 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 08:59:23,908 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:23 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 08:59:24,000 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:24,001 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 08:59:24,002 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:24 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 08:59:24,088 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:24,088 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 08:59:24,088 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:24 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 08:59:24,097 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:24,097 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 08:59:24,098 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:24 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 08:59:24,124 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:24,125 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 08:59:24,125 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:24 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 08:59:24,179 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:24,179 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 08:59:24,180 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:24 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 08:59:24,235 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:24,236 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 08:59:24,236 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:24 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 08:59:24,553 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:24,553 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 08:59:24,554 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:24 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 08:59:24,733 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:24,733 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 08:59:24,734 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:24 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 08:59:24,771 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:24,771 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 08:59:24,771 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:24 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 08:59:24,912 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:24,912 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 08:59:24,913 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:24 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 08:59:25,003 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:25,003 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 08:59:25,004 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:25 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 08:59:25,089 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:25,089 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 08:59:25,089 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:25 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 08:59:25,099 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:25,101 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 08:59:25,102 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:25 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 08:59:25,125 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:25,126 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 08:59:25,126 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:25 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 08:59:25,182 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:25,182 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 08:59:25,183 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:25 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 08:59:25,237 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:25,237 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 08:59:25,238 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:25 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 08:59:25,556 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:25,557 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 08:59:25,559 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:25 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 08:59:25,735 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:25,736 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 08:59:25,736 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:25 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 08:59:25,771 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:25 +0000] "GET /health HTTP/1.1" 200 282 "-" "curl/8.9.1"
+2024-09-19 08:59:25,772 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:25,772 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 08:59:25,773 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:25 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 08:59:25,783 - __main__ - INFO - Task received from 127.0.0.1 and queued: a8c389c9-6595-4d47-a68b-cd8253839937 (Type: ip_data)
+2024-09-19 08:59:25,783 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:25 +0000] "POST /receive_task HTTP/1.0" 200 248 "-" "curl/8.9.1"
+2024-09-19 08:59:25,902 - __main__ - INFO - Task received from 127.0.0.1 and queued: 69f761d1-050e-42d3-8b8e-052dc9d669f8 (Type: ip_data)
+2024-09-19 08:59:25,903 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:25 +0000] "POST /receive_task HTTP/1.0" 200 248 "-" "curl/8.9.1"
+2024-09-19 08:59:25,917 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:25,917 - __main__ - INFO - Assigning task a8c389c9-6595-4d47-a68b-cd8253839937 to worker worker_1
+2024-09-19 08:59:25,918 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:25 +0000] "POST /process_task HTTP/1.1" 200 296 "-" "-"
+2024-09-19 08:59:26,005 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:26,005 - __main__ - INFO - Assigning task 69f761d1-050e-42d3-8b8e-052dc9d669f8 to worker worker_1
+2024-09-19 08:59:26,006 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:26 +0000] "POST /process_task HTTP/1.1" 200 297 "-" "-"
+2024-09-19 08:59:26,019 - __main__ - INFO - Task received from 127.0.0.1 and queued: 94632ec1-030e-4615-9927-7c5b9eb27b28 (Type: ip_data)
+2024-09-19 08:59:26,019 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:26 +0000] "POST /receive_task HTTP/1.0" 200 248 "-" "curl/8.9.1"
+2024-09-19 08:59:26,090 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:26,090 - __main__ - INFO - Assigning task 94632ec1-030e-4615-9927-7c5b9eb27b28 to worker worker_1
+2024-09-19 08:59:26,090 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:26 +0000] "POST /process_task HTTP/1.1" 200 296 "-" "-"
+2024-09-19 08:59:26,105 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:26,105 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 08:59:26,106 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:26 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 08:59:26,129 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:26,129 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 08:59:26,129 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:26 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 08:59:26,145 - __main__ - INFO - Task received from 127.0.0.1 and queued: 771d56ad-05b1-4301-85a2-035f17956d18 (Type: ip_data)
+2024-09-19 08:59:26,151 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:26 +0000] "POST /receive_task HTTP/1.0" 200 248 "-" "curl/8.9.1"
+2024-09-19 08:59:26,184 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:26,185 - __main__ - INFO - Assigning task 771d56ad-05b1-4301-85a2-035f17956d18 to worker worker_1
+2024-09-19 08:59:26,185 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:26 +0000] "POST /process_task HTTP/1.1" 200 296 "-" "-"
+2024-09-19 08:59:26,238 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:26,238 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 08:59:26,239 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:26 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 08:59:26,269 - __main__ - INFO - Task received from 127.0.0.1 and queued: 98d56f86-7cde-45cd-abf3-c16a55e8aaea (Type: ip_data)
+2024-09-19 08:59:26,270 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:26 +0000] "POST /receive_task HTTP/1.0" 200 248 "-" "curl/8.9.1"
+2024-09-19 08:59:26,392 - __main__ - INFO - Task received from 127.0.0.1 and queued: da9fef1f-343a-44e0-a9dd-9940bf868aec (Type: ip_data)
+2024-09-19 08:59:26,393 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:26 +0000] "POST /receive_task HTTP/1.0" 200 248 "-" "curl/8.9.1"
+2024-09-19 08:59:26,519 - __main__ - INFO - Task received from 127.0.0.1 and queued: ac829f45-bde9-4532-835e-a8457f99168c (Type: ip_data)
+2024-09-19 08:59:26,520 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:26 +0000] "POST /receive_task HTTP/1.0" 200 248 "-" "curl/8.9.1"
+2024-09-19 08:59:26,561 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:26,561 - __main__ - INFO - Assigning task 98d56f86-7cde-45cd-abf3-c16a55e8aaea to worker worker_1
+2024-09-19 08:59:26,561 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:26 +0000] "POST /process_task HTTP/1.1" 200 296 "-" "-"
+2024-09-19 08:59:26,640 - __main__ - INFO - Task received from 127.0.0.1 and queued: df7f92e5-b27a-4137-af1e-9448cf188c62 (Type: ip_data)
+2024-09-19 08:59:26,640 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:26 +0000] "POST /receive_task HTTP/1.0" 200 248 "-" "curl/8.9.1"
+2024-09-19 08:59:26,739 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:26,739 - __main__ - INFO - Assigning task da9fef1f-343a-44e0-a9dd-9940bf868aec to worker worker_1
+2024-09-19 08:59:26,740 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:26 +0000] "POST /process_task HTTP/1.1" 200 294 "-" "-"
+2024-09-19 08:59:26,761 - __main__ - INFO - Task received from 127.0.0.1 and queued: a8dba768-4f70-44d9-ac8c-d524ef57f3f4 (Type: ip_data)
+2024-09-19 08:59:26,762 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:26 +0000] "POST /receive_task HTTP/1.0" 200 248 "-" "curl/8.9.1"
+2024-09-19 08:59:26,773 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:26,773 - __main__ - INFO - Assigning task ac829f45-bde9-4532-835e-a8457f99168c to worker worker_1
+2024-09-19 08:59:26,774 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:26 +0000] "POST /process_task HTTP/1.1" 200 294 "-" "-"
+2024-09-19 08:59:26,881 - __main__ - INFO - Task received from 127.0.0.1 and queued: cd2bb93e-2618-4a5d-a7b4-2241a541af39 (Type: ip_data)
+2024-09-19 08:59:26,882 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:26 +0000] "POST /receive_task HTTP/1.0" 200 248 "-" "curl/8.9.1"
+2024-09-19 08:59:26,918 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:26,919 - __main__ - INFO - Assigning task df7f92e5-b27a-4137-af1e-9448cf188c62 to worker worker_1
+2024-09-19 08:59:26,919 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:26 +0000] "POST /process_task HTTP/1.1" 200 296 "-" "-"
+2024-09-19 08:59:27,005 - __main__ - INFO - Task received from 127.0.0.1 and queued: 70f7751d-2add-4ed7-aaeb-e82d936ddc2c (Type: ip_data)
+2024-09-19 08:59:27,006 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:27 +0000] "POST /receive_task HTTP/1.0" 200 248 "-" "curl/8.9.1"
+2024-09-19 08:59:27,010 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:27,010 - __main__ - INFO - Assigning task a8dba768-4f70-44d9-ac8c-d524ef57f3f4 to worker worker_1
+2024-09-19 08:59:27,011 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:27 +0000] "POST /process_task HTTP/1.1" 200 297 "-" "-"
+2024-09-19 08:59:27,091 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:27,091 - __main__ - INFO - Assigning task cd2bb93e-2618-4a5d-a7b4-2241a541af39 to worker worker_1
+2024-09-19 08:59:27,092 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:27 +0000] "POST /process_task HTTP/1.1" 200 296 "-" "-"
+2024-09-19 08:59:27,106 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:27,106 - __main__ - INFO - Assigning task 70f7751d-2add-4ed7-aaeb-e82d936ddc2c to worker worker_1
+2024-09-19 08:59:27,107 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:27 +0000] "POST /process_task HTTP/1.1" 200 297 "-" "-"
+2024-09-19 08:59:27,125 - __main__ - INFO - Task received from 127.0.0.1 and queued: af943d7e-5f31-4df6-a289-d6b7e6b4414c (Type: ip_data)
+2024-09-19 08:59:27,125 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:27 +0000] "POST /receive_task HTTP/1.0" 200 248 "-" "curl/8.9.1"
+2024-09-19 08:59:27,130 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:27,131 - __main__ - INFO - Assigning task af943d7e-5f31-4df6-a289-d6b7e6b4414c to worker worker_1
+2024-09-19 08:59:27,131 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:27 +0000] "POST /process_task HTTP/1.1" 200 295 "-" "-"
+2024-09-19 08:59:27,186 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:27,187 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 08:59:27,187 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:27 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 08:59:27,239 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:27,239 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 08:59:27,240 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:27 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 08:59:27,250 - __main__ - INFO - Task received from 127.0.0.1 and queued: 11e05307-c431-40c2-b208-b96b69125198 (Type: ip_data)
+2024-09-19 08:59:27,251 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:27 +0000] "POST /receive_task HTTP/1.0" 200 248 "-" "curl/8.9.1"
+2024-09-19 08:59:27,371 - __main__ - INFO - Task received from 127.0.0.1 and queued: b1c2ffd1-7e62-4eec-8f30-666b877992fd (Type: ip_data)
+2024-09-19 08:59:27,371 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:27 +0000] "POST /receive_task HTTP/1.0" 200 248 "-" "curl/8.9.1"
+2024-09-19 08:59:27,494 - __main__ - INFO - Task received from 127.0.0.1 and queued: 3a768f7f-d7d4-4ddd-89fc-000e8f6f499a (Type: ip_data)
+2024-09-19 08:59:27,495 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:27 +0000] "POST /receive_task HTTP/1.0" 200 248 "-" "curl/8.9.1"
+2024-09-19 08:59:27,564 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:27,564 - __main__ - INFO - Assigning task 11e05307-c431-40c2-b208-b96b69125198 to worker worker_1
+2024-09-19 08:59:27,564 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:27 +0000] "POST /process_task HTTP/1.1" 200 297 "-" "-"
+2024-09-19 08:59:27,652 - __main__ - INFO - Task received from 127.0.0.1 and queued: 0093fe62-9d38-4cac-abc3-52f8f739879b (Type: ip_data)
+2024-09-19 08:59:27,653 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:27 +0000] "POST /receive_task HTTP/1.0" 200 248 "-" "curl/8.9.1"
+2024-09-19 08:59:27,741 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:27,744 - __main__ - INFO - Assigning task b1c2ffd1-7e62-4eec-8f30-666b877992fd to worker worker_1
+2024-09-19 08:59:27,745 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:27 +0000] "POST /process_task HTTP/1.1" 200 295 "-" "-"
+2024-09-19 08:59:27,774 - __main__ - INFO - Task received from 127.0.0.1 and queued: fea70625-a42b-47d6-811e-d7aab40388ed (Type: ip_data)
+2024-09-19 08:59:27,775 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:27 +0000] "POST /receive_task HTTP/1.0" 200 248 "-" "curl/8.9.1"
+2024-09-19 08:59:27,776 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:27,776 - __main__ - INFO - Assigning task 3a768f7f-d7d4-4ddd-89fc-000e8f6f499a to worker worker_1
+2024-09-19 08:59:27,776 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:27 +0000] "POST /process_task HTTP/1.1" 200 295 "-" "-"
+2024-09-19 08:59:27,915 - __main__ - INFO - Task received from 127.0.0.1 and queued: 57afcadf-e25e-41e1-a364-146d3b8b0de8 (Type: ip_data)
+2024-09-19 08:59:27,916 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:27 +0000] "POST /receive_task HTTP/1.0" 200 248 "-" "curl/8.9.1"
+2024-09-19 08:59:27,922 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:27,922 - __main__ - INFO - Assigning task 0093fe62-9d38-4cac-abc3-52f8f739879b to worker worker_1
+2024-09-19 08:59:27,925 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:27 +0000] "POST /process_task HTTP/1.1" 200 297 "-" "-"
+2024-09-19 08:59:28,019 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:28,019 - __main__ - INFO - Assigning task fea70625-a42b-47d6-811e-d7aab40388ed to worker worker_1
+2024-09-19 08:59:28,020 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:28 +0000] "POST /process_task HTTP/1.1" 200 296 "-" "-"
+2024-09-19 08:59:28,062 - __main__ - INFO - Task received from 127.0.0.1 and queued: 4217781f-9fd1-4ec0-8a3d-e7ccda703228 (Type: ip_data)
+2024-09-19 08:59:28,063 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:28 +0000] "POST /receive_task HTTP/1.0" 200 248 "-" "curl/8.9.1"
+2024-09-19 08:59:28,092 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:28,092 - __main__ - INFO - Assigning task 57afcadf-e25e-41e1-a364-146d3b8b0de8 to worker worker_1
+2024-09-19 08:59:28,093 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:28 +0000] "POST /process_task HTTP/1.1" 200 294 "-" "-"
+2024-09-19 08:59:28,109 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:28,109 - __main__ - INFO - Assigning task 4217781f-9fd1-4ec0-8a3d-e7ccda703228 to worker worker_1
+2024-09-19 08:59:28,111 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:28 +0000] "POST /process_task HTTP/1.1" 200 296 "-" "-"
+2024-09-19 08:59:28,138 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:28,138 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 08:59:28,139 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:28 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 08:59:28,194 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:28,194 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 08:59:28,196 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:28 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 08:59:28,202 - __main__ - INFO - Task received from 127.0.0.1 and queued: 2bf3270e-0cf9-4961-a6b3-fa90237f9364 (Type: ip_data)
+2024-09-19 08:59:28,203 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:28 +0000] "POST /receive_task HTTP/1.0" 200 248 "-" "curl/8.9.1"
+2024-09-19 08:59:28,242 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:28,242 - __main__ - INFO - Assigning task 2bf3270e-0cf9-4961-a6b3-fa90237f9364 to worker worker_1
+2024-09-19 08:59:28,242 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:28 +0000] "POST /process_task HTTP/1.1" 200 294 "-" "-"
+2024-09-19 08:59:28,329 - __main__ - INFO - Task received from 127.0.0.1 and queued: a3584787-fd37-4b40-971c-76d92bdf1e90 (Type: ip_data)
+2024-09-19 08:59:28,329 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:28 +0000] "POST /receive_task HTTP/1.0" 200 248 "-" "curl/8.9.1"
+2024-09-19 08:59:28,444 - __main__ - INFO - Task received from 127.0.0.1 and queued: 75779172-a04f-40a3-87d0-fdf46320eb2e (Type: ip_data)
+2024-09-19 08:59:28,444 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:28 +0000] "POST /receive_task HTTP/1.0" 200 248 "-" "curl/8.9.1"
+2024-09-19 08:59:28,563 - __main__ - INFO - Task received from 127.0.0.1 and queued: 3ad1225c-8a51-4496-9ac3-936698b0be99 (Type: ip_data)
+2024-09-19 08:59:28,563 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:28 +0000] "POST /receive_task HTTP/1.0" 200 248 "-" "curl/8.9.1"
+2024-09-19 08:59:28,566 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:28,566 - __main__ - INFO - Assigning task a3584787-fd37-4b40-971c-76d92bdf1e90 to worker worker_1
+2024-09-19 08:59:28,567 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:28 +0000] "POST /process_task HTTP/1.1" 200 294 "-" "-"
+2024-09-19 08:59:28,747 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:28,749 - __main__ - INFO - Assigning task 75779172-a04f-40a3-87d0-fdf46320eb2e to worker worker_1
+2024-09-19 08:59:28,751 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:28 +0000] "POST /process_task HTTP/1.1" 200 295 "-" "-"
+2024-09-19 08:59:28,780 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:28,780 - __main__ - INFO - Assigning task 3ad1225c-8a51-4496-9ac3-936698b0be99 to worker worker_1
+2024-09-19 08:59:28,780 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:28 +0000] "POST /process_task HTTP/1.1" 200 295 "-" "-"
+2024-09-19 08:59:28,925 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:28,925 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 08:59:28,925 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:28 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 08:59:28,954 - src.node_manager.run_worker - WARNING - Timeout while waiting for worker worker_1 output
+2024-09-19 08:59:28,954 - src.node_manager.run_worker - WARNING - No stderr output from worker worker_1
+2024-09-19 08:59:29,022 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:29,022 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 08:59:29,024 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:29 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 08:59:29,094 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:29,095 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 08:59:29,096 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:29 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 08:59:29,113 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:29,114 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 08:59:29,115 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:29 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 08:59:29,141 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:29,142 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 08:59:29,144 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:29 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 08:59:29,197 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:29,198 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 08:59:29,198 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:29 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 08:59:29,245 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:29,245 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 08:59:29,246 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:29 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 08:59:29,570 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:29,570 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 08:59:29,571 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:29 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 08:59:29,753 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:29,753 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 08:59:29,754 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:29 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 08:59:29,781 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:29,782 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 08:59:29,782 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:29 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 08:59:29,927 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:29,928 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 08:59:29,929 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:29 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 08:59:30,024 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:30,024 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 08:59:30,025 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:30 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 08:59:30,096 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:30,097 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 08:59:30,097 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:30 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 08:59:30,118 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:30,118 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 08:59:30,119 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:30 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 08:59:30,144 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:30,144 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 08:59:30,144 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:30 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 08:59:30,204 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:30,205 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 08:59:30,207 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:30 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 08:59:30,248 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:30,248 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 08:59:30,250 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:30 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 08:59:30,575 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:30,576 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 08:59:30,579 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:30 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 08:59:30,755 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:30,755 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 08:59:30,755 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:30 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 08:59:30,784 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:30,784 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 08:59:30,784 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:30 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 08:59:30,932 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:30,933 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 08:59:30,935 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:30 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 08:59:31,026 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:31,026 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 08:59:31,026 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:31 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 08:59:31,100 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:31,100 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 08:59:31,100 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:31 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 08:59:31,120 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:31,120 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 08:59:31,120 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:31 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 08:59:31,145 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:31,145 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 08:59:31,146 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:31 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 08:59:31,208 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:31,208 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 08:59:31,209 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:31 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 08:59:31,251 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:31,252 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 08:59:31,254 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:31 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 08:59:31,584 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:31,584 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 08:59:31,584 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:31 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 08:59:31,757 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:31,758 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 08:59:31,760 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:31 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 08:59:31,791 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 08:59:31,792 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 08:59:31,797 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:05:59:31 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:44,074 - src.task_processor - DEBUG - TaskProcessor initialized successfully
+2024-09-19 09:29:44,075 - __main__ - INFO - NodeManager started
+2024-09-19 09:29:44,075 - src.ipc.http_utils - INFO - Creating HTTP server on 127.0.0.1:8081
+2024-09-19 09:29:44,075 - __main__ - INFO - NodeManager initialized successfully
+2024-09-19 09:29:44,075 - src.ipc.http_utils - INFO - Starting HTTP server
+2024-09-19 09:29:44,076 - src.ipc.http_utils - INFO - HTTP server started on 127.0.0.1:8081
+2024-09-19 09:29:44,076 - __main__ - INFO - NodeManager is listening on http://127.0.0.1:8081
+2024-09-19 09:29:44,076 - __main__ - INFO - Nginx is listening on http://127.0.0.1:8080
+2024-09-19 09:29:44,076 - __main__ - INFO - NodeManager is running behind Nginx at http://127.0.0.1:8080
+2024-09-19 09:29:44,076 - __main__ - DEBUG - Attempting to start worker worker_1 on port 8082
+2024-09-19 09:29:44,076 - src.node_manager.run_worker - INFO - Starting worker process: worker_1 on port 8082
+2024-09-19 09:29:44,076 - src.node_manager.run_worker - DEBUG - Worker script permissions: 775
+2024-09-19 09:29:44,076 - src.node_manager.run_worker - DEBUG - Worker start command: /home/zilla/Documents/ALX/mini-distributed-task-processor/src/workers/worker 127.0.0.1 8081 worker_1
+2024-09-19 09:29:44,077 - src.node_manager.run_worker - INFO - Worker worker_1 started with PID 625920
+2024-09-19 09:29:44,185 - src.task_processor - DEBUG - TaskProcessor initialized successfully
+2024-09-19 09:29:44,186 - asyncio - DEBUG - Using selector: EpollSelector
+2024-09-19 09:29:44,188 - src.utils.config - DEBUG - Initializing Config with file: config/processor_config.ini
+2024-09-19 09:29:44,188 - src.utils.config - DEBUG - Reloading config from file: config/processor_config.ini
+2024-09-19 09:29:44,189 - src.utils.config - DEBUG - Config reloaded successfully
+2024-09-19 09:29:44,189 - src.utils.config - DEBUG - Config initialized successfully
+2024-09-19 09:29:44,189 - src.task_processor - DEBUG - Initializing TaskProcessor
+2024-09-19 09:29:44,189 - src.task_processor - DEBUG - Setting up logging
+2024-09-19 09:29:44,190 - src.task_processor - DEBUG - TaskProcessor initialized successfully
+2024-09-19 09:29:44,191 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:44,191 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:44,191 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:44 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:45,194 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:45,194 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:45,196 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:45 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:46,198 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:46,199 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:46,201 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:46 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:47,202 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:47,203 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:47,205 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:47 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:47,274 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:47,274 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:47,275 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:47 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:47,368 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:47,368 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:47,369 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:47 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:47,443 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:47,444 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:47,444 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:47 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:47,447 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:47,447 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:47,449 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:47 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:47,486 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:47,486 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:47,487 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:47 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:47,544 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:47,544 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:47,545 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:47 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:47,606 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:47,606 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:47,607 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:47 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:47,922 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:47,922 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:47,923 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:47 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:48,112 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:48,112 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:48,112 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:48 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:48,134 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:48,134 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:48,134 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:48 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:48,207 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:48,208 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:48,208 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:48 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:48,279 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:48,279 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:48,280 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:48 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:48,371 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:48,371 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:48,372 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:48 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:48,446 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:48,446 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:48,448 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:48 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:48,451 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:48,451 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:48,453 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:48 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:48,489 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:48,489 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:48,490 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:48 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:48,546 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:48,547 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:48,548 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:48 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:48,609 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:48,609 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:48,610 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:48 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:48,926 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:48,926 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:48,927 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:48 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:49,113 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:49,114 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:49,114 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:49 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:49,135 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:49,136 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:49,136 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:49 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:49,214 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:49,216 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:49,220 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:49 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:49,282 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:49,282 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:49,283 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:49 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:49,374 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:49,375 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:49,377 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:49 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:49,450 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:49,450 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:49,451 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:49 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:49,454 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:49,455 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:49,456 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:49 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:49,492 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:49,493 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:49,495 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:49 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:49,550 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:49,551 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:49,552 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:49 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:49,612 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:49,612 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:49,613 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:49 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:49,930 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:49,931 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:49,933 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:49 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:50,115 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:50,116 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:50,116 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:50 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:50,137 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:50,137 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:50,138 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:50 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:50,221 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:50,221 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:50,223 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:50 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:50,288 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:50,290 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:50,294 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:50 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:50,377 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:50,378 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:50,378 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:50 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:50,452 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:50,452 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:50,453 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:50 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:50,457 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:50,458 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:50,459 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:50 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:50,495 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:50,496 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:50,496 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:50 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:50,553 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:50,553 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:50,554 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:50 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:50,616 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:50,616 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:50,616 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:50 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:50,911 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:50 +0000] "GET /health HTTP/1.1" 200 282 "-" "curl/8.9.1"
+2024-09-19 09:29:50,933 - __main__ - INFO - Task received from 127.0.0.1 and queued: 4891b3f8-72c4-4799-acce-b5f8e3893466 (Type: ip_data)
+2024-09-19 09:29:50,933 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:50 +0000] "POST /receive_task HTTP/1.0" 200 248 "-" "curl/8.9.1"
+2024-09-19 09:29:50,934 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:50,935 - __main__ - INFO - Assigning task 4891b3f8-72c4-4799-acce-b5f8e3893466 to worker worker_1
+2024-09-19 09:29:50,935 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:50 +0000] "POST /process_task HTTP/1.1" 200 296 "-" "-"
+2024-09-19 09:29:51,066 - __main__ - INFO - Task received from 127.0.0.1 and queued: 6021425e-2657-4c98-b991-c510fd113cc3 (Type: ip_data)
+2024-09-19 09:29:51,067 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:51 +0000] "POST /receive_task HTTP/1.0" 200 248 "-" "curl/8.9.1"
+2024-09-19 09:29:51,118 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:51,118 - __main__ - INFO - Assigning task 6021425e-2657-4c98-b991-c510fd113cc3 to worker worker_1
+2024-09-19 09:29:51,119 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:51 +0000] "POST /process_task HTTP/1.1" 200 297 "-" "-"
+2024-09-19 09:29:51,138 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:51,139 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:51,140 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:51 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:51,191 - __main__ - INFO - Task received from 127.0.0.1 and queued: ed571d79-163d-4894-835d-4ef6ade14420 (Type: ip_data)
+2024-09-19 09:29:51,192 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:51 +0000] "POST /receive_task HTTP/1.0" 200 248 "-" "curl/8.9.1"
+2024-09-19 09:29:51,225 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:51,225 - __main__ - INFO - Assigning task ed571d79-163d-4894-835d-4ef6ade14420 to worker worker_1
+2024-09-19 09:29:51,225 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:51 +0000] "POST /process_task HTTP/1.1" 200 296 "-" "-"
+2024-09-19 09:29:51,297 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:51,297 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:51,297 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:51 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:51,309 - __main__ - INFO - Task received from 127.0.0.1 and queued: 0424b11b-0b8b-4163-a54d-0b65fe1e6afb (Type: ip_data)
+2024-09-19 09:29:51,310 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:51 +0000] "POST /receive_task HTTP/1.0" 200 248 "-" "curl/8.9.1"
+2024-09-19 09:29:51,379 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:51,379 - __main__ - INFO - Assigning task 0424b11b-0b8b-4163-a54d-0b65fe1e6afb to worker worker_1
+2024-09-19 09:29:51,379 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:51 +0000] "POST /process_task HTTP/1.1" 200 296 "-" "-"
+2024-09-19 09:29:51,425 - __main__ - INFO - Task received from 127.0.0.1 and queued: b3684ce3-7038-406b-9d07-f9bf8a3a74f4 (Type: ip_data)
+2024-09-19 09:29:51,426 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:51 +0000] "POST /receive_task HTTP/1.0" 200 248 "-" "curl/8.9.1"
+2024-09-19 09:29:51,454 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:51,454 - __main__ - INFO - Assigning task b3684ce3-7038-406b-9d07-f9bf8a3a74f4 to worker worker_1
+2024-09-19 09:29:51,455 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:51 +0000] "POST /process_task HTTP/1.1" 200 296 "-" "-"
+2024-09-19 09:29:51,460 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:51,461 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:51,461 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:51 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:51,497 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:51,497 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:51,497 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:51 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:51,541 - __main__ - INFO - Task received from 127.0.0.1 and queued: d0f8ba99-f4b7-4a3e-9fdc-71656a6438ca (Type: ip_data)
+2024-09-19 09:29:51,542 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:51 +0000] "POST /receive_task HTTP/1.0" 200 248 "-" "curl/8.9.1"
+2024-09-19 09:29:51,555 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:51,555 - __main__ - INFO - Assigning task d0f8ba99-f4b7-4a3e-9fdc-71656a6438ca to worker worker_1
+2024-09-19 09:29:51,555 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:51 +0000] "POST /process_task HTTP/1.1" 200 294 "-" "-"
+2024-09-19 09:29:51,618 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:51,618 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:51,618 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:51 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:51,657 - __main__ - INFO - Task received from 127.0.0.1 and queued: afb566e3-a4f5-46cb-8202-11a735160b07 (Type: ip_data)
+2024-09-19 09:29:51,658 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:51 +0000] "POST /receive_task HTTP/1.0" 200 248 "-" "curl/8.9.1"
+2024-09-19 09:29:51,810 - __main__ - INFO - Task received from 127.0.0.1 and queued: 4bca0718-19b8-41a3-9367-2578a4e134fe (Type: ip_data)
+2024-09-19 09:29:51,810 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:51 +0000] "POST /receive_task HTTP/1.0" 200 248 "-" "curl/8.9.1"
+2024-09-19 09:29:51,939 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:51,941 - __main__ - INFO - Assigning task afb566e3-a4f5-46cb-8202-11a735160b07 to worker worker_1
+2024-09-19 09:29:51,942 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:51 +0000] "POST /process_task HTTP/1.1" 200 294 "-" "-"
+2024-09-19 09:29:51,949 - __main__ - INFO - Task received from 127.0.0.1 and queued: c36a5117-ee99-4d8d-9325-4cb9a38ef014 (Type: ip_data)
+2024-09-19 09:29:51,949 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:51 +0000] "POST /receive_task HTTP/1.0" 200 248 "-" "curl/8.9.1"
+2024-09-19 09:29:52,084 - __main__ - INFO - Task received from 127.0.0.1 and queued: 8e6cb560-9b00-4033-98d5-3a392c5bf885 (Type: ip_data)
+2024-09-19 09:29:52,084 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:52 +0000] "POST /receive_task HTTP/1.0" 200 248 "-" "curl/8.9.1"
+2024-09-19 09:29:52,121 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:52,122 - __main__ - INFO - Assigning task 4bca0718-19b8-41a3-9367-2578a4e134fe to worker worker_1
+2024-09-19 09:29:52,124 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:52 +0000] "POST /process_task HTTP/1.1" 200 296 "-" "-"
+2024-09-19 09:29:52,143 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:52,143 - __main__ - INFO - Assigning task c36a5117-ee99-4d8d-9325-4cb9a38ef014 to worker worker_1
+2024-09-19 09:29:52,144 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:52 +0000] "POST /process_task HTTP/1.1" 200 297 "-" "-"
+2024-09-19 09:29:52,215 - __main__ - INFO - Task received from 127.0.0.1 and queued: f51bd251-fa08-4cc9-b383-2bb2e29d39eb (Type: ip_data)
+2024-09-19 09:29:52,215 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:52 +0000] "POST /receive_task HTTP/1.0" 200 248 "-" "curl/8.9.1"
+2024-09-19 09:29:52,228 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:52,228 - __main__ - INFO - Assigning task 8e6cb560-9b00-4033-98d5-3a392c5bf885 to worker worker_1
+2024-09-19 09:29:52,228 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:52 +0000] "POST /process_task HTTP/1.1" 200 296 "-" "-"
+2024-09-19 09:29:52,298 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:52,299 - __main__ - INFO - Assigning task f51bd251-fa08-4cc9-b383-2bb2e29d39eb to worker worker_1
+2024-09-19 09:29:52,299 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:52 +0000] "POST /process_task HTTP/1.1" 200 297 "-" "-"
+2024-09-19 09:29:52,331 - __main__ - INFO - Task received from 127.0.0.1 and queued: 4e38704c-cff0-4b06-be85-31dbb4b350b9 (Type: ip_data)
+2024-09-19 09:29:52,332 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:52 +0000] "POST /receive_task HTTP/1.0" 200 248 "-" "curl/8.9.1"
+2024-09-19 09:29:52,380 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:52,380 - __main__ - INFO - Assigning task 4e38704c-cff0-4b06-be85-31dbb4b350b9 to worker worker_1
+2024-09-19 09:29:52,381 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:52 +0000] "POST /process_task HTTP/1.1" 200 295 "-" "-"
+2024-09-19 09:29:52,463 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:52,464 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:52,468 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:52 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:52,470 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:52,470 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:52,472 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:52 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:52,483 - __main__ - INFO - Task received from 127.0.0.1 and queued: 344a39ff-d4ad-418e-9041-81ba98650ab2 (Type: ip_data)
+2024-09-19 09:29:52,484 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:52 +0000] "POST /receive_task HTTP/1.0" 200 248 "-" "curl/8.9.1"
+2024-09-19 09:29:52,500 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:52,501 - __main__ - INFO - Assigning task 344a39ff-d4ad-418e-9041-81ba98650ab2 to worker worker_1
+2024-09-19 09:29:52,502 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:52 +0000] "POST /process_task HTTP/1.1" 200 297 "-" "-"
+2024-09-19 09:29:52,558 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:52,558 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:52,559 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:52 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:52,606 - __main__ - INFO - Task received from 127.0.0.1 and queued: f0ee91c3-80ff-40df-804d-a167f2250efe (Type: ip_data)
+2024-09-19 09:29:52,606 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:52 +0000] "POST /receive_task HTTP/1.0" 200 248 "-" "curl/8.9.1"
+2024-09-19 09:29:52,619 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:52,619 - __main__ - INFO - Assigning task f0ee91c3-80ff-40df-804d-a167f2250efe to worker worker_1
+2024-09-19 09:29:52,619 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:52 +0000] "POST /process_task HTTP/1.1" 200 295 "-" "-"
+2024-09-19 09:29:52,721 - __main__ - INFO - Task received from 127.0.0.1 and queued: b31e7a04-a639-43b7-9847-50b456fdcd3b (Type: ip_data)
+2024-09-19 09:29:52,721 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:52 +0000] "POST /receive_task HTTP/1.0" 200 248 "-" "curl/8.9.1"
+2024-09-19 09:29:52,836 - __main__ - INFO - Task received from 127.0.0.1 and queued: c7e13734-bcb1-47f0-bb3b-368a7ebce410 (Type: ip_data)
+2024-09-19 09:29:52,837 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:52 +0000] "POST /receive_task HTTP/1.0" 200 248 "-" "curl/8.9.1"
+2024-09-19 09:29:52,943 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:52,943 - __main__ - INFO - Assigning task b31e7a04-a639-43b7-9847-50b456fdcd3b to worker worker_1
+2024-09-19 09:29:52,943 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:52 +0000] "POST /process_task HTTP/1.1" 200 295 "-" "-"
+2024-09-19 09:29:52,952 - __main__ - INFO - Task received from 127.0.0.1 and queued: 42a9afab-f3f2-4fa8-9533-950bf426ea68 (Type: ip_data)
+2024-09-19 09:29:52,952 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:52 +0000] "POST /receive_task HTTP/1.0" 200 248 "-" "curl/8.9.1"
+2024-09-19 09:29:53,069 - __main__ - INFO - Task received from 127.0.0.1 and queued: 8ccde4ad-4bdc-43cf-91a1-3dc497fc640d (Type: ip_data)
+2024-09-19 09:29:53,070 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:53 +0000] "POST /receive_task HTTP/1.0" 200 248 "-" "curl/8.9.1"
+2024-09-19 09:29:53,125 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:53,125 - __main__ - INFO - Assigning task c7e13734-bcb1-47f0-bb3b-368a7ebce410 to worker worker_1
+2024-09-19 09:29:53,126 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:53 +0000] "POST /process_task HTTP/1.1" 200 297 "-" "-"
+2024-09-19 09:29:53,145 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:53,145 - __main__ - INFO - Assigning task 42a9afab-f3f2-4fa8-9533-950bf426ea68 to worker worker_1
+2024-09-19 09:29:53,146 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:53 +0000] "POST /process_task HTTP/1.1" 200 296 "-" "-"
+2024-09-19 09:29:53,185 - __main__ - INFO - Task received from 127.0.0.1 and queued: cd808889-996a-41bc-bddc-d69afd719723 (Type: ip_data)
+2024-09-19 09:29:53,185 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:53 +0000] "POST /receive_task HTTP/1.0" 200 248 "-" "curl/8.9.1"
+2024-09-19 09:29:53,229 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:53,229 - __main__ - INFO - Assigning task 8ccde4ad-4bdc-43cf-91a1-3dc497fc640d to worker worker_1
+2024-09-19 09:29:53,230 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:53 +0000] "POST /process_task HTTP/1.1" 200 294 "-" "-"
+2024-09-19 09:29:53,302 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:53,302 - __main__ - INFO - Assigning task cd808889-996a-41bc-bddc-d69afd719723 to worker worker_1
+2024-09-19 09:29:53,304 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:53 +0000] "POST /process_task HTTP/1.1" 200 296 "-" "-"
+2024-09-19 09:29:53,343 - __main__ - INFO - Task received from 127.0.0.1 and queued: 5c41d9ee-a932-4fbd-9b00-dc2be86d528f (Type: ip_data)
+2024-09-19 09:29:53,345 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:53 +0000] "POST /receive_task HTTP/1.0" 200 248 "-" "curl/8.9.1"
+2024-09-19 09:29:53,382 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:53,382 - __main__ - INFO - Assigning task 5c41d9ee-a932-4fbd-9b00-dc2be86d528f to worker worker_1
+2024-09-19 09:29:53,383 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:53 +0000] "POST /process_task HTTP/1.1" 200 294 "-" "-"
+2024-09-19 09:29:53,465 - __main__ - INFO - Task received from 127.0.0.1 and queued: 6b1cd3c6-0f56-4baf-b4f4-297e6e6abe08 (Type: ip_data)
+2024-09-19 09:29:53,465 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:53 +0000] "POST /receive_task HTTP/1.0" 200 248 "-" "curl/8.9.1"
+2024-09-19 09:29:53,469 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:53,469 - __main__ - INFO - Assigning task 6b1cd3c6-0f56-4baf-b4f4-297e6e6abe08 to worker worker_1
+2024-09-19 09:29:53,469 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:53 +0000] "POST /process_task HTTP/1.1" 200 294 "-" "-"
+2024-09-19 09:29:53,472 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:53,473 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:53,473 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:53 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:53,503 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:53,503 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:53,504 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:53 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:53,560 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:53,560 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:53,560 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:53 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:53,581 - __main__ - INFO - Task received from 127.0.0.1 and queued: 13935aeb-e15b-4d3f-9f58-50f1bec3307e (Type: ip_data)
+2024-09-19 09:29:53,581 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:53 +0000] "POST /receive_task HTTP/1.0" 200 248 "-" "curl/8.9.1"
+2024-09-19 09:29:53,620 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:53,620 - __main__ - INFO - Assigning task 13935aeb-e15b-4d3f-9f58-50f1bec3307e to worker worker_1
+2024-09-19 09:29:53,620 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:53 +0000] "POST /process_task HTTP/1.1" 200 295 "-" "-"
+2024-09-19 09:29:53,700 - __main__ - INFO - Task received from 127.0.0.1 and queued: b992c7e3-6df9-41ec-b42a-41665a93ca37 (Type: ip_data)
+2024-09-19 09:29:53,701 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:53 +0000] "POST /receive_task HTTP/1.0" 200 248 "-" "curl/8.9.1"
+2024-09-19 09:29:53,945 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:53,945 - __main__ - INFO - Assigning task b992c7e3-6df9-41ec-b42a-41665a93ca37 to worker worker_1
+2024-09-19 09:29:53,946 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:53 +0000] "POST /process_task HTTP/1.1" 200 295 "-" "-"
+2024-09-19 09:29:54,079 - src.node_manager.run_worker - WARNING - Timeout while waiting for worker worker_1 output
+2024-09-19 09:29:54,080 - src.node_manager.run_worker - WARNING - No stderr output from worker worker_1
+2024-09-19 09:29:54,130 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:54,130 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:54,131 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:54 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:54,150 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:54,150 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:54,151 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:54 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:54,234 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:54,234 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:54,234 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:54 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:54,310 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:54,310 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:54,311 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:54 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:54,384 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:54,384 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:54,384 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:54 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:54,470 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:54,470 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:54,470 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:54 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:54,474 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:54,474 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:54,475 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:54 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:54,504 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:54,505 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:54,505 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:54 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:54,562 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:54,562 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:54,563 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:54 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:54,622 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:54,622 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:54,624 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:54 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:54,949 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:54,949 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:54,950 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:54 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:55,134 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:55,137 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:55,138 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:55 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:55,152 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:55,153 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:55,155 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:55 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:55,235 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:55,235 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:55,236 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:55 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:55,314 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:55,314 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:55,317 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:55 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:55,386 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:55,387 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:55,388 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:55 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:55,471 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:55,471 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:55,471 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:55 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:55,476 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:55,476 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:55,477 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:55 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:55,506 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:55,506 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:55,506 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:55 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:55,564 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:55,564 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:55,565 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:55 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:55,625 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:55,626 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:55,627 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:55 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:55,953 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:55,953 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:55,954 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:55 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:56,140 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:56,140 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:56,141 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:56 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:56,156 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:56,156 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:56,157 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:56 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:56,237 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:56,237 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:56,237 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:56 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:56,317 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:56,317 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:56,318 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:56 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:56,388 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:56,389 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:56,390 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:56 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:56,478 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:56,479 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:56,493 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:56 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:56,495 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:56,496 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:56,502 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:56 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:56,508 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:56,508 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:56,510 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:56 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:56,566 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:56,566 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:56,566 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:56 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:56,628 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:56,628 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:56,628 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:56 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:56,955 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:56,955 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:56,955 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:56 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:57,142 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:57,143 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:57,143 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:57 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:57,157 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:57,157 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:57,158 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:57 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:57,238 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:57,239 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:57,239 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:57 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:57,319 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:57,319 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:57,319 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:57 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:57,392 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:57,392 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:57,392 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:57 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:57,500 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:57,500 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:57,500 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:57 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:57,502 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:57,502 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:57,502 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:57 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:57,512 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:57,512 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:57,512 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:57 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:57,568 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:57,568 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:57,569 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:57 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:57,630 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:57,631 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:57,632 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:57 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:57,956 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:57,956 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:57,957 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:57 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:58,146 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:58,146 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:58,147 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:58 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:58,159 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:58,160 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:58,162 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:58 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:58,246 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:58,246 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:58,246 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:58 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:58,320 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:58,320 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:58,321 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:58 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:58,393 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:58,393 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:58,394 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:58 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:58,502 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:58,502 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:58,502 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:58 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:58,503 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:58,503 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:58,503 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:58 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:58,512 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:58,513 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:58,513 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:58 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:58,574 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:58,574 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:58,575 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:58 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:58,637 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:58,637 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:58,638 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:58 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:58,960 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:58,964 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:58,965 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:58 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:59,082 - src.utils.helpers - ERROR - Failed to check node health for 127.0.0.1:8082: Cannot connect to host 127.0.0.1:8082 ssl:default [Connect call failed ('127.0.0.1', 8082)]
+2024-09-19 09:29:59,083 - src.node_manager.run_worker - WARNING - Worker worker_1 failed initial health check
+2024-09-19 09:29:59,092 - __main__ - INFO - Initialized worker: worker_1 on port 8082
+2024-09-19 09:29:59,147 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:59,147 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:59,148 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:59 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:59,163 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:59,164 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:59,164 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:59 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:59,327 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:59,328 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:59,329 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:59 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:59,395 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:59,396 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:59,397 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:59 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:59,506 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:59,507 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:59,509 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:59 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:59,512 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:59,513 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:59,514 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:59 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:59,516 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:59,517 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:59,518 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:59 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:59,575 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:59,575 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:59,576 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:59 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:59,638 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:59,639 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:59,639 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:59 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:29:59,967 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:29:59,968 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:29:59,968 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:29:59 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:30:00,093 - __main__ - DEBUG - Starting main loop iteration
+2024-09-19 09:30:00,094 - __main__ - INFO - Starting health check for all workers
+2024-09-19 09:30:00,094 - __main__ - DEBUG - Checking health of worker worker_1
+2024-09-19 09:30:00,095 - src.utils.helpers - ERROR - Failed to check node health for 127.0.0.1:8082: Cannot connect to host 127.0.0.1:8082 ssl:default [Connect call failed ('127.0.0.1', 8082)]
+2024-09-19 09:30:00,095 - __main__ - DEBUG - Health check result for worker worker_1:                         False
+2024-09-19 09:30:00,095 - __main__ - WARNING - Worker worker_1 health check failed
+2024-09-19 09:30:00,095 - __main__ - INFO - Reassigned 0 tasks
+2024-09-19 09:30:00,096 - __main__ - WARNING - Worker worker_1 is inactive, reassigned                     0 tasks
+2024-09-19 09:30:00,096 - __main__ - INFO - Completed health check for all workers
+2024-09-19 09:30:00,096 - __main__ - DEBUG - Fetching and processing results from all workers
+2024-09-19 09:30:00,096 - __main__ - DEBUG - Monitoring performance of all workers
+2024-09-19 09:30:00,096 - __main__ - INFO - Current worker status: 0                 active out of 1 total
+2024-09-19 09:30:00,096 - __main__ - INFO - Min worker limit reached, unable to scale down further
+2024-09-19 09:30:00,096 - __main__ - INFO - System State: {'total_workers': 1, 'active_workers': 0, 'queued_tasks': 0}
+2024-09-19 09:30:00,096 - __main__ - INFO - Worker State: {'worker_id': 'worker_1', 'port': 8082, 'status': 'inactive', 'tasks': 0, 'performance_score': 1.0}
+2024-09-19 09:30:00,148 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:30:00,148 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:30:00,149 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:30:00 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:30:00,165 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:30:00,165 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:30:00,165 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:30:00 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:30:00,330 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:30:00,330 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:30:00,330 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:30:00 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:30:00,398 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:30:00,398 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:30:00,398 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:30:00 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:30:00,511 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:30:00,511 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:30:00,511 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:30:00 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:30:00,516 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:30:00,516 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:30:00,517 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:30:00 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:30:00,519 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:30:00,519 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:30:00,519 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:30:00 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:30:00,576 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:30:00,576 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:30:00,577 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:30:00 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:30:00,641 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:30:00,642 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:30:00,643 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:30:00 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:30:00,970 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:30:00,971 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:30:00,972 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:30:00 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:30:01,150 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:30:01,150 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:30:01,150 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:30:01 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:30:01,166 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:30:01,166 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:30:01,166 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:30:01 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:30:01,337 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:30:01,337 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:30:01,340 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:30:01 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:30:01,401 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:30:01,402 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:30:01,403 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:30:01 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:30:01,513 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:30:01,513 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:30:01,514 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:30:01 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:30:01,518 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:30:01,518 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:30:01,519 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:30:01 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:30:01,520 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:30:01,521 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:30:01,521 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:30:01 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:30:01,578 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:30:01,578 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:30:01,579 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:30:01 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:30:01,644 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:30:01,644 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:30:01,645 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:30:01 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:30:01,973 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:30:01,973 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:30:01,974 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:30:01 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:30:02,151 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:30:02,151 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:30:02,152 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:30:02 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:30:02,167 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:30:02,167 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:30:02,167 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:30:02 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:30:02,342 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:30:02,342 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:30:02,343 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:30:02 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:30:02,404 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:30:02,404 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:30:02,404 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:30:02 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:30:02,515 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:30:02,516 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:30:02,517 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:30:02 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:30:02,520 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:30:02,521 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:30:02,522 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:30:02 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:30:02,522 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:30:02,523 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:30:02,523 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:30:02 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:30:02,580 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:30:02,581 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:30:02,581 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:30:02 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:30:02,646 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:30:02,646 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:30:02,646 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:30:02 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 09:30:02,974 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 09:30:02,974 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 09:30:02,975 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:06:30:02 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 10:38:43,820 - src.task_processor - DEBUG - TaskProcessor initialized successfully
+2024-09-19 10:38:43,821 - __main__ - INFO - NodeManager started
+2024-09-19 10:38:43,821 - src.ipc.http_utils - INFO - Creating HTTP server on 127.0.0.1:8081
+2024-09-19 10:38:43,822 - __main__ - INFO - NodeManager initialized successfully
+2024-09-19 10:38:43,822 - src.ipc.http_utils - INFO - Starting HTTP server
+2024-09-19 10:38:43,822 - src.ipc.http_utils - INFO - HTTP server started on 127.0.0.1:8081
+2024-09-19 10:38:43,822 - __main__ - INFO - NodeManager is listening on http://127.0.0.1:8081
+2024-09-19 10:38:43,822 - __main__ - INFO - Nginx is listening on http://127.0.0.1:8080
+2024-09-19 10:38:43,822 - __main__ - INFO - NodeManager is running behind Nginx at http://127.0.0.1:8080
+2024-09-19 10:38:43,823 - __main__ - DEBUG - Attempting to start worker worker_1 on port 8082
+2024-09-19 10:38:43,823 - src.node_manager.run_worker - INFO - Starting worker process: worker_1 on port 8082
+2024-09-19 10:38:43,823 - src.node_manager.run_worker - DEBUG - Worker script permissions: 775
+2024-09-19 10:38:43,823 - src.node_manager.run_worker - DEBUG - Worker start command: /home/zilla/Documents/ALX/mini-distributed-task-processor/src/workers/worker 127.0.0.1 8081 worker_1
+2024-09-19 10:38:43,824 - src.node_manager.run_worker - INFO - Worker worker_1 started with PID 679611
+2024-09-19 10:38:43,898 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 10:38:43,898 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 10:38:43,899 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:07:38:43 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 10:38:43,899 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 10:38:43,899 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 10:38:43,900 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:07:38:43 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 10:38:43,931 - src.task_processor - DEBUG - TaskProcessor initialized successfully
+2024-09-19 10:38:43,931 - asyncio - DEBUG - Using selector: EpollSelector
+2024-09-19 10:38:43,934 - src.utils.config - DEBUG - Initializing Config with file: config/processor_config.ini
+2024-09-19 10:38:43,934 - src.utils.config - DEBUG - Reloading config from file: config/processor_config.ini
+2024-09-19 10:38:43,935 - src.utils.config - DEBUG - Config reloaded successfully
+2024-09-19 10:38:43,935 - src.utils.config - DEBUG - Config initialized successfully
+2024-09-19 10:38:43,935 - src.task_processor - DEBUG - Initializing TaskProcessor
+2024-09-19 10:38:43,935 - src.task_processor - DEBUG - Setting up logging
+2024-09-19 10:38:43,936 - src.task_processor - DEBUG - TaskProcessor initialized successfully
+2024-09-19 10:38:43,937 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 10:38:43,937 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 10:38:43,937 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:07:38:43 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 10:38:44,065 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 10:38:44,066 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 10:38:44,066 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:07:38:44 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 10:38:44,131 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 10:38:44,132 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 10:38:44,133 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:07:38:44 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 10:38:44,220 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 10:38:44,220 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 10:38:44,221 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:07:38:44 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 10:38:44,265 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 10:38:44,265 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 10:38:44,265 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:07:38:44 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 10:38:44,266 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 10:38:44,266 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 10:38:44,267 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:07:38:44 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 10:38:44,337 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 10:38:44,337 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 10:38:44,338 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:07:38:44 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 10:38:44,356 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 10:38:44,356 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 10:38:44,356 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:07:38:44 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 10:38:44,711 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 10:38:44,711 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 10:38:44,711 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:07:38:44 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 10:38:44,899 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 10:38:44,900 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 10:38:44,902 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:07:38:44 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 10:38:44,904 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 10:38:44,904 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 10:38:44,905 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:07:38:44 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 10:38:44,939 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 10:38:44,940 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 10:38:44,942 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:07:38:44 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 10:38:45,067 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 10:38:45,067 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 10:38:45,069 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:07:38:45 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 10:38:45,137 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 10:38:45,137 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 10:38:45,138 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:07:38:45 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 10:38:45,222 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 10:38:45,223 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 10:38:45,223 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:07:38:45 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 10:38:45,269 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 10:38:45,269 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 10:38:45,271 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:07:38:45 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 10:38:45,271 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 10:38:45,272 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 10:38:45,273 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:07:38:45 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 10:38:45,340 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 10:38:45,340 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 10:38:45,341 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:07:38:45 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 10:38:45,357 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 10:38:45,358 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 10:38:45,359 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:07:38:45 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 10:38:45,713 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 10:38:45,714 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 10:38:45,715 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:07:38:45 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 10:38:45,908 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 10:38:45,909 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 10:38:45,913 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:07:38:45 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 10:38:45,916 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 10:38:45,917 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 10:38:45,918 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:07:38:45 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 10:38:45,944 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 10:38:45,944 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 10:38:45,946 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:07:38:45 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 10:38:46,071 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 10:38:46,071 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 10:38:46,072 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:07:38:46 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 10:38:46,140 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 10:38:46,140 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 10:38:46,142 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:07:38:46 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 10:38:46,225 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 10:38:46,226 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 10:38:46,227 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:07:38:46 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 10:38:46,273 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 10:38:46,274 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 10:38:46,275 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:07:38:46 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 10:38:46,277 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 10:38:46,277 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 10:38:46,278 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:07:38:46 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 10:38:46,344 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 10:38:46,344 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 10:38:46,346 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:07:38:46 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 10:38:46,361 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 10:38:46,362 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 10:38:46,363 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:07:38:46 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 10:38:46,717 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 10:38:46,718 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 10:38:46,720 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:07:38:46 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 10:38:46,914 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 10:38:46,914 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 10:38:46,916 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:07:38:46 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 10:38:46,921 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 10:38:46,921 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 10:38:46,922 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:07:38:46 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 10:38:46,948 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 10:38:46,948 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 10:38:46,949 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:07:38:46 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 10:38:47,073 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 10:38:47,073 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 10:38:47,073 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:07:38:47 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 10:38:47,143 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 10:38:47,143 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 10:38:47,143 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:07:38:47 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 10:38:47,228 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 10:38:47,229 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 10:38:47,230 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:07:38:47 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 10:38:47,277 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 10:38:47,278 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 10:38:47,279 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:07:38:47 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 10:38:47,280 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 10:38:47,281 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 10:38:47,282 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:07:38:47 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 10:38:47,348 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 10:38:47,348 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 10:38:47,351 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:07:38:47 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 10:38:47,366 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 10:38:47,366 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 10:38:47,368 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:07:38:47 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 10:38:47,722 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 10:38:47,722 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 10:38:47,724 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:07:38:47 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 10:38:47,918 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 10:38:47,918 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 10:38:47,919 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:07:38:47 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 10:38:47,924 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 10:38:47,924 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 10:38:47,925 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:07:38:47 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 10:38:47,951 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 10:38:47,952 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 10:38:47,953 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:07:38:47 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 10:38:48,074 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 10:38:48,074 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 10:38:48,075 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:07:38:48 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 10:38:48,144 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 10:38:48,144 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 10:38:48,145 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:07:38:48 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 10:38:48,231 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 10:38:48,232 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 10:38:48,233 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:07:38:48 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 10:38:48,281 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 10:38:48,281 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 10:38:48,283 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:07:38:48 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 10:38:48,284 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 10:38:48,285 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 10:38:48,286 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:07:38:48 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 10:38:48,353 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 10:38:48,354 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 10:38:48,355 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:07:38:48 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 10:38:48,370 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 10:38:48,371 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 10:38:48,372 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:07:38:48 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-19 10:38:48,726 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-19 10:38:48,726 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-19 10:38:48,728 - aiohttp.access - INFO - 127.0.0.1 [19/Sep/2024:07:38:48 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 12:27:06,849 - src.task_processor - DEBUG - TaskProcessor initialized successfully
+2024-09-21 12:27:06,849 - __main__ - INFO - NodeManager started
+2024-09-21 12:27:06,850 - src.ipc.http_utils - INFO - Creating HTTP server on 127.0.0.1:8081
+2024-09-21 12:27:06,850 - __main__ - INFO - NodeManager initialized successfully
+2024-09-21 12:27:06,850 - src.ipc.http_utils - INFO - Starting HTTP server
+2024-09-21 12:27:06,850 - src.ipc.http_utils - INFO - HTTP server started on 127.0.0.1:8081
+2024-09-21 12:27:06,850 - __main__ - INFO - NodeManager is listening on http://127.0.0.1:8081
+2024-09-21 12:27:06,850 - __main__ - INFO - Nginx is listening on http://127.0.0.1:8080
+2024-09-21 12:27:06,851 - __main__ - INFO - NodeManager is running behind Nginx at http://127.0.0.1:8080
+2024-09-21 12:27:06,851 - __main__ - DEBUG - Attempting to start worker worker_1 on port 8082
+2024-09-21 12:27:06,851 - src.node_manager.run_worker - INFO - Starting worker process: worker_1 on port 8082
+2024-09-21 12:27:06,851 - src.node_manager.run_worker - DEBUG - Worker script permissions: 775
+2024-09-21 12:27:06,851 - src.node_manager.run_worker - DEBUG - Worker start command: /home/zilla/Documents/ALX/mini-distributed-task-processor/src/workers/worker 127.0.0.1 8081 worker_1
+2024-09-21 12:27:06,852 - src.node_manager.run_worker - INFO - Worker worker_1 started with PID 187993
+2024-09-21 12:27:07,091 - src.task_processor - DEBUG - TaskProcessor initialized successfully
+2024-09-21 12:27:07,091 - asyncio - DEBUG - Using selector: EpollSelector
+2024-09-21 12:27:07,097 - src.utils.config - DEBUG - Initializing Config with file: config/processor_config.ini
+2024-09-21 12:27:07,097 - src.utils.config - DEBUG - Reloading config from file: config/processor_config.ini
+2024-09-21 12:27:07,098 - src.utils.config - DEBUG - Config reloaded successfully
+2024-09-21 12:27:07,098 - src.utils.config - DEBUG - Config initialized successfully
+2024-09-21 12:27:07,098 - src.task_processor - DEBUG - Initializing TaskProcessor
+2024-09-21 12:27:07,098 - src.task_processor - DEBUG - Setting up logging
+2024-09-21 12:27:07,098 - src.task_processor - DEBUG - TaskProcessor initialized successfully
+2024-09-21 12:27:07,100 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 12:27:07,100 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 12:27:07,100 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:09:27:07 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 12:27:08,102 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 12:27:08,102 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 12:27:08,102 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:09:27:08 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 12:27:09,105 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 12:27:09,106 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 12:27:09,107 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:09:27:09 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 12:27:10,108 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 12:27:10,109 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 12:27:10,109 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:09:27:10 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 12:27:11,110 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 12:27:11,110 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 12:27:11,111 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:09:27:11 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 12:32:12,082 - src.task_processor - DEBUG - TaskProcessor initialized successfully
+2024-09-21 12:32:12,082 - __main__ - INFO - NodeManager started
+2024-09-21 12:32:12,083 - src.ipc.http_utils - INFO - Creating HTTP server on 127.0.0.1:8081
+2024-09-21 12:32:12,083 - __main__ - INFO - NodeManager initialized successfully
+2024-09-21 12:32:12,083 - src.ipc.http_utils - INFO - Starting HTTP server
+2024-09-21 12:32:12,083 - src.ipc.http_utils - INFO - HTTP server started on 127.0.0.1:8081
+2024-09-21 12:32:12,083 - __main__ - INFO - NodeManager is listening on http://127.0.0.1:8081
+2024-09-21 12:32:12,084 - __main__ - INFO - Nginx is listening on http://127.0.0.1:8080
+2024-09-21 12:32:12,084 - __main__ - INFO - NodeManager is running behind Nginx at http://127.0.0.1:8080
+2024-09-21 12:32:12,084 - __main__ - DEBUG - Attempting to start worker worker_1 on port 8082
+2024-09-21 12:32:12,084 - src.node_manager.run_worker - INFO - Starting worker process: worker_1 on port 8082
+2024-09-21 12:32:12,084 - src.node_manager.run_worker - DEBUG - Worker script permissions: 775
+2024-09-21 12:32:12,084 - src.node_manager.run_worker - DEBUG - Worker start command: /home/zilla/Documents/ALX/mini-distributed-task-processor/src/workers/worker 127.0.0.1 8081 worker_1
+2024-09-21 12:32:12,085 - src.node_manager.run_worker - INFO - Worker worker_1 started with PID 191120
+2024-09-21 12:32:12,153 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 12:32:12,153 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 12:32:12,154 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:09:32:12 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 12:32:12,180 - src.task_processor - DEBUG - TaskProcessor initialized successfully
+2024-09-21 12:32:12,180 - asyncio - DEBUG - Using selector: EpollSelector
+2024-09-21 12:32:12,182 - src.utils.config - DEBUG - Initializing Config with file: config/processor_config.ini
+2024-09-21 12:32:12,183 - src.utils.config - DEBUG - Reloading config from file: config/processor_config.ini
+2024-09-21 12:32:12,183 - src.utils.config - DEBUG - Config reloaded successfully
+2024-09-21 12:32:12,183 - src.utils.config - DEBUG - Config initialized successfully
+2024-09-21 12:32:12,184 - src.task_processor - DEBUG - Initializing TaskProcessor
+2024-09-21 12:32:12,184 - src.task_processor - DEBUG - Setting up logging
+2024-09-21 12:32:12,184 - src.task_processor - DEBUG - TaskProcessor initialized successfully
+2024-09-21 12:32:12,185 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 12:32:12,185 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 12:32:12,186 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:09:32:12 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 12:32:13,156 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 12:32:13,157 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 12:32:13,159 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:09:32:13 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 12:32:13,188 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 12:32:13,189 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 12:32:13,190 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:09:32:13 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 12:32:14,160 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 12:32:14,161 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 12:32:14,162 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:09:32:14 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 12:32:14,193 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 12:32:14,193 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 12:32:14,194 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:09:32:14 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 12:32:15,164 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 12:32:15,165 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 12:32:15,166 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:09:32:15 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 12:32:15,197 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 12:32:15,197 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 12:32:15,199 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:09:32:15 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 12:39:48,805 - src.task_processor - DEBUG - TaskProcessor initialized successfully
+2024-09-21 12:39:48,806 - __main__ - INFO - NodeManager started
+2024-09-21 12:39:48,806 - src.ipc.http_utils - INFO - Creating HTTP server on 127.0.0.1:8081
+2024-09-21 12:39:48,806 - __main__ - INFO - NodeManager initialized successfully
+2024-09-21 12:39:48,806 - src.ipc.http_utils - INFO - Starting HTTP server
+2024-09-21 12:39:48,806 - src.ipc.http_utils - INFO - HTTP server started on 127.0.0.1:8081
+2024-09-21 12:39:48,807 - __main__ - INFO - NodeManager is listening on http://127.0.0.1:8081
+2024-09-21 12:39:48,807 - __main__ - INFO - Nginx is listening on http://127.0.0.1:8080
+2024-09-21 12:39:48,807 - __main__ - INFO - NodeManager is running behind Nginx at http://127.0.0.1:8080
+2024-09-21 12:39:48,807 - __main__ - DEBUG - Attempting to start worker worker_1 on port 8082
+2024-09-21 12:39:48,807 - src.node_manager.run_worker - INFO - Starting worker process: worker_1 on port 8082
+2024-09-21 12:39:48,807 - src.node_manager.run_worker - DEBUG - Worker script permissions: 775
+2024-09-21 12:39:48,807 - src.node_manager.run_worker - DEBUG - Worker start command: /home/zilla/Documents/ALX/mini-distributed-task-processor/src/workers/worker 127.0.0.1 8081 worker_1
+2024-09-21 12:39:48,808 - src.node_manager.run_worker - INFO - Worker worker_1 started with PID 195457
+2024-09-21 12:39:48,914 - src.task_processor - DEBUG - TaskProcessor initialized successfully
+2024-09-21 12:39:48,914 - asyncio - DEBUG - Using selector: EpollSelector
+2024-09-21 12:39:48,917 - src.utils.config - DEBUG - Initializing Config with file: config/processor_config.ini
+2024-09-21 12:39:48,917 - src.utils.config - DEBUG - Reloading config from file: config/processor_config.ini
+2024-09-21 12:39:48,918 - src.utils.config - DEBUG - Config reloaded successfully
+2024-09-21 12:39:48,918 - src.utils.config - DEBUG - Config initialized successfully
+2024-09-21 12:39:48,918 - src.task_processor - DEBUG - Initializing TaskProcessor
+2024-09-21 12:39:48,918 - src.task_processor - DEBUG - Setting up logging
+2024-09-21 12:39:48,918 - src.task_processor - DEBUG - TaskProcessor initialized successfully
+2024-09-21 12:39:48,920 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 12:39:48,920 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 12:39:48,920 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:09:39:48 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 12:39:49,922 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 12:39:49,923 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 12:39:49,924 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:09:39:49 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 12:39:50,926 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 12:39:50,926 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 12:39:50,928 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:09:39:50 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 12:39:51,243 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 12:39:51,244 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 12:39:51,246 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:09:39:51 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 12:39:51,277 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 12:39:51,277 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 12:39:51,279 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:09:39:51 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 12:39:51,931 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 12:39:51,932 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 12:39:51,933 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:09:39:51 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 12:39:52,247 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 12:39:52,248 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 12:39:52,249 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:09:39:52 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 12:39:52,281 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 12:39:52,281 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 12:39:52,283 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:09:39:52 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 12:52:40,929 - src.task_processor - DEBUG - TaskProcessor initialized successfully
+2024-09-21 12:52:40,930 - __main__ - INFO - NodeManager started
+2024-09-21 12:52:40,930 - src.ipc.http_utils - INFO - Creating HTTP server on 127.0.0.1:8081
+2024-09-21 12:52:40,930 - __main__ - INFO - NodeManager initialized successfully
+2024-09-21 12:52:40,930 - src.ipc.http_utils - INFO - Starting HTTP server
+2024-09-21 12:52:40,931 - src.ipc.http_utils - INFO - HTTP server started on 127.0.0.1:8081
+2024-09-21 12:52:40,931 - __main__ - INFO - NodeManager is listening on http://127.0.0.1:8081
+2024-09-21 12:52:40,932 - __main__ - INFO - Nginx is listening on http://127.0.0.1:8080
+2024-09-21 12:52:40,932 - __main__ - INFO - NodeManager is running behind Nginx at http://127.0.0.1:8080
+2024-09-21 12:52:40,932 - __main__ - DEBUG - Attempting to start worker worker_1 on port 8082
+2024-09-21 12:52:40,932 - src.node_manager.run_worker - INFO - Starting worker process: worker_1 on port 8082
+2024-09-21 12:52:40,933 - src.node_manager.run_worker - DEBUG - Worker script permissions: 775
+2024-09-21 12:52:40,933 - src.node_manager.run_worker - DEBUG - Worker start command: /home/zilla/Documents/ALX/mini-distributed-task-processor/src/workers/worker 127.0.0.1 8081 worker_1
+2024-09-21 12:52:40,935 - src.node_manager.run_worker - INFO - Worker worker_1 started with PID 202872
+2024-09-21 12:52:41,082 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 12:52:41,082 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 12:52:41,083 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:09:52:41 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 12:52:41,083 - src.task_processor - DEBUG - TaskProcessor initialized successfully
+2024-09-21 12:52:41,084 - asyncio - DEBUG - Using selector: EpollSelector
+2024-09-21 12:52:41,087 - src.utils.config - DEBUG - Initializing Config with file: config/processor_config.ini
+2024-09-21 12:52:41,087 - src.utils.config - DEBUG - Reloading config from file: config/processor_config.ini
+2024-09-21 12:52:41,091 - src.utils.config - DEBUG - Config reloaded successfully
+2024-09-21 12:52:41,091 - src.utils.config - DEBUG - Config initialized successfully
+2024-09-21 12:52:41,092 - src.task_processor - DEBUG - Initializing TaskProcessor
+2024-09-21 12:52:41,092 - src.task_processor - DEBUG - Setting up logging
+2024-09-21 12:52:41,092 - src.task_processor - DEBUG - TaskProcessor initialized successfully
+2024-09-21 12:52:41,094 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 12:52:41,094 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 12:52:41,094 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:09:52:41 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 12:52:42,084 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 12:52:42,085 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 12:52:42,085 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:09:52:42 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 12:52:42,096 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 12:52:42,096 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 12:52:42,096 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:09:52:42 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 12:52:43,086 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 12:52:43,086 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 12:52:43,086 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:09:52:43 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 12:52:43,098 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 12:52:43,099 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 12:52:43,099 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:09:52:43 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 12:52:43,383 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 12:52:43,383 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 12:52:43,383 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:09:52:43 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 12:52:43,415 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 12:52:43,417 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 12:52:43,417 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:09:52:43 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 12:52:44,088 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 12:52:44,089 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 12:52:44,092 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:09:52:44 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 12:52:44,102 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 12:52:44,102 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 12:52:44,104 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:09:52:44 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 12:52:44,389 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 12:52:44,389 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 12:52:44,389 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:09:52:44 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 12:52:44,418 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 12:52:44,418 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 12:52:44,419 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:09:52:44 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 12:52:45,094 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 12:52:45,095 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 12:52:45,095 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:09:52:45 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 12:52:45,106 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 12:52:45,106 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 12:52:45,106 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:09:52:45 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 12:52:45,391 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 12:52:45,391 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 12:52:45,391 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:09:52:45 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 13:08:27,451 - src.task_processor - DEBUG - TaskProcessor initialized successfully
+2024-09-21 13:08:27,451 - __main__ - INFO - NodeManager started
+2024-09-21 13:08:27,452 - src.ipc.http_utils - INFO - Creating HTTP server on 127.0.0.1:8081
+2024-09-21 13:08:27,452 - __main__ - INFO - NodeManager initialized successfully
+2024-09-21 13:08:27,452 - src.ipc.http_utils - INFO - Starting HTTP server
+2024-09-21 13:08:27,452 - src.ipc.http_utils - INFO - HTTP server started on 127.0.0.1:8081
+2024-09-21 13:08:27,452 - __main__ - INFO - NodeManager is listening on http://127.0.0.1:8081
+2024-09-21 13:08:27,453 - __main__ - INFO - Nginx is listening on http://127.0.0.1:8080
+2024-09-21 13:08:27,453 - __main__ - INFO - NodeManager is running behind Nginx at http://127.0.0.1:8080
+2024-09-21 13:08:27,453 - __main__ - DEBUG - Attempting to start worker worker_1 on port 8082
+2024-09-21 13:08:27,453 - src.node_manager.run_worker - INFO - Starting worker process: worker_1 on port 8082
+2024-09-21 13:08:27,453 - src.node_manager.run_worker - DEBUG - Worker script permissions: 775
+2024-09-21 13:08:27,453 - src.node_manager.run_worker - DEBUG - Worker start command: /home/zilla/Documents/ALX/mini-distributed-task-processor/src/workers/worker 127.0.0.1 8081 worker_1
+2024-09-21 13:08:27,454 - src.node_manager.run_worker - INFO - Worker worker_1 started with PID 212481
+2024-09-21 13:08:27,556 - src.task_processor - DEBUG - TaskProcessor initialized successfully
+2024-09-21 13:08:27,557 - asyncio - DEBUG - Using selector: EpollSelector
+2024-09-21 13:08:27,559 - src.utils.config - DEBUG - Initializing Config with file: config/processor_config.ini
+2024-09-21 13:08:27,559 - src.utils.config - DEBUG - Reloading config from file: config/processor_config.ini
+2024-09-21 13:08:27,560 - src.utils.config - DEBUG - Config reloaded successfully
+2024-09-21 13:08:27,560 - src.utils.config - DEBUG - Config initialized successfully
+2024-09-21 13:08:27,560 - src.task_processor - DEBUG - Initializing TaskProcessor
+2024-09-21 13:08:27,560 - src.task_processor - DEBUG - Setting up logging
+2024-09-21 13:08:27,561 - src.task_processor - DEBUG - TaskProcessor initialized successfully
+2024-09-21 13:08:27,562 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:08:27,562 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 13:08:27,562 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:08:27 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 13:08:28,261 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:08:28,262 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 13:08:28,263 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:08:28 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 13:08:28,269 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:08:28,269 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 13:08:28,271 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:08:28 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 13:08:28,564 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:08:28,565 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 13:08:28,566 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:08:28 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 13:08:29,265 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:08:29,265 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 13:08:29,265 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:08:29 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 13:08:29,271 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:08:29,272 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 13:08:29,272 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:08:29 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 13:08:29,568 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:08:29,569 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 13:08:29,570 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:08:29 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 13:08:30,268 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:08:30,269 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 13:08:30,270 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:08:30 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 13:08:30,274 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:08:30,275 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 13:08:30,276 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:08:30 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 13:08:30,572 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:08:30,572 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 13:08:30,573 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:08:30 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 13:08:30,587 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:08:30,588 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 13:08:30,590 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:08:30 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 13:08:31,272 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:08:31,273 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 13:08:31,274 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:08:31 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 13:08:31,278 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:08:31,278 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 13:08:31,279 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:08:31 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 13:08:31,547 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:08:31,547 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 13:08:31,548 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:08:31 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 13:08:31,576 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:08:31,576 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 13:08:31,577 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:08:31 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 13:08:31,591 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:08:31,591 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 13:08:31,592 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:08:31 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 13:11:05,782 - src.task_processor - DEBUG - TaskProcessor initialized successfully
+2024-09-21 13:11:05,782 - __main__ - INFO - NodeManager started
+2024-09-21 13:11:05,783 - src.ipc.http_utils - INFO - Creating HTTP server on 127.0.0.1:8081
+2024-09-21 13:11:05,783 - __main__ - INFO - NodeManager initialized successfully
+2024-09-21 13:11:05,783 - src.ipc.http_utils - INFO - Starting HTTP server
+2024-09-21 13:11:05,784 - src.ipc.http_utils - INFO - HTTP server started on 127.0.0.1:8081
+2024-09-21 13:11:05,784 - __main__ - INFO - NodeManager is listening on http://127.0.0.1:8081
+2024-09-21 13:11:05,784 - __main__ - INFO - Nginx is listening on http://127.0.0.1:8080
+2024-09-21 13:11:05,784 - __main__ - INFO - NodeManager is running behind Nginx at http://127.0.0.1:8080
+2024-09-21 13:11:05,784 - __main__ - DEBUG - Attempting to start worker worker_1 on port 8082
+2024-09-21 13:11:05,784 - src.node_manager.run_worker - INFO - Starting worker process: worker_1 on port 8082
+2024-09-21 13:11:05,784 - src.node_manager.run_worker - DEBUG - Worker script permissions: 775
+2024-09-21 13:11:05,784 - src.node_manager.run_worker - DEBUG - Worker start command: /home/zilla/Documents/ALX/mini-distributed-task-processor/src/workers/worker 127.0.0.1 8081 worker_1
+2024-09-21 13:11:05,785 - src.node_manager.run_worker - INFO - Worker worker_1 started with PID 214061
+2024-09-21 13:11:05,888 - src.task_processor - DEBUG - TaskProcessor initialized successfully
+2024-09-21 13:11:05,888 - asyncio - DEBUG - Using selector: EpollSelector
+2024-09-21 13:11:05,891 - src.utils.config - DEBUG - Initializing Config with file: config/processor_config.ini
+2024-09-21 13:11:05,891 - src.utils.config - DEBUG - Reloading config from file: config/processor_config.ini
+2024-09-21 13:11:05,892 - src.utils.config - DEBUG - Config reloaded successfully
+2024-09-21 13:11:05,892 - src.utils.config - DEBUG - Config initialized successfully
+2024-09-21 13:11:05,892 - src.task_processor - DEBUG - Initializing TaskProcessor
+2024-09-21 13:11:05,892 - src.task_processor - DEBUG - Setting up logging
+2024-09-21 13:11:05,893 - src.task_processor - DEBUG - TaskProcessor initialized successfully
+2024-09-21 13:11:05,894 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:11:05,894 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 13:11:05,894 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:11:05 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 13:11:06,897 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:11:06,897 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 13:11:06,898 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:11:06 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 13:11:07,575 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:11:07,576 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 13:11:07,578 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:11:07 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 13:11:07,619 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:11:07,619 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 13:11:07,619 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:11:07 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 13:11:07,900 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:11:07,901 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 13:11:07,902 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:11:07 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 13:11:08,302 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:11:08,302 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 13:11:08,304 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:11:08 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 13:11:08,310 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:11:08,311 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 13:11:08,311 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:11:08 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 13:11:08,580 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:11:08,580 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 13:11:08,582 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:11:08 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 13:11:08,610 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:11:08,610 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 13:11:08,611 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:11:08 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 13:11:08,621 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:11:08,622 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 13:11:08,623 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:11:08 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 13:11:08,904 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:11:08,905 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 13:11:08,906 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:11:08 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 13:11:48,545 - src.task_processor - DEBUG - TaskProcessor initialized successfully
+2024-09-21 13:11:48,546 - __main__ - INFO - NodeManager started
+2024-09-21 13:11:48,546 - src.ipc.http_utils - INFO - Creating HTTP server on 127.0.0.1:8081
+2024-09-21 13:11:48,546 - __main__ - INFO - NodeManager initialized successfully
+2024-09-21 13:11:48,546 - src.ipc.http_utils - INFO - Starting HTTP server
+2024-09-21 13:11:48,547 - src.ipc.http_utils - INFO - HTTP server started on 127.0.0.1:8081
+2024-09-21 13:11:48,547 - __main__ - INFO - NodeManager is listening on http://127.0.0.1:8081
+2024-09-21 13:11:48,547 - __main__ - INFO - Nginx is listening on http://127.0.0.1:8080
+2024-09-21 13:11:48,547 - __main__ - INFO - NodeManager is running behind Nginx at http://127.0.0.1:8080
+2024-09-21 13:11:48,547 - __main__ - DEBUG - Attempting to start worker worker_1 on port 8082
+2024-09-21 13:11:48,547 - src.node_manager.run_worker - INFO - Starting worker process: worker_1 on port 8082
+2024-09-21 13:11:48,547 - src.node_manager.run_worker - DEBUG - Worker script permissions: 775
+2024-09-21 13:11:48,547 - src.node_manager.run_worker - DEBUG - Worker start command: /home/zilla/Documents/ALX/mini-distributed-task-processor/src/workers/worker 127.0.0.1 8081 worker_1
+2024-09-21 13:11:48,548 - src.node_manager.run_worker - INFO - Worker worker_1 started with PID 214633
+2024-09-21 13:11:48,648 - src.task_processor - DEBUG - TaskProcessor initialized successfully
+2024-09-21 13:11:48,649 - asyncio - DEBUG - Using selector: EpollSelector
+2024-09-21 13:11:48,651 - src.utils.config - DEBUG - Initializing Config with file: config/processor_config.ini
+2024-09-21 13:11:48,651 - src.utils.config - DEBUG - Reloading config from file: config/processor_config.ini
+2024-09-21 13:11:48,652 - src.utils.config - DEBUG - Config reloaded successfully
+2024-09-21 13:11:48,652 - src.utils.config - DEBUG - Config initialized successfully
+2024-09-21 13:11:48,652 - src.task_processor - DEBUG - Initializing TaskProcessor
+2024-09-21 13:11:48,652 - src.task_processor - DEBUG - Setting up logging
+2024-09-21 13:11:48,652 - src.task_processor - DEBUG - TaskProcessor initialized successfully
+2024-09-21 13:11:48,654 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:11:48,654 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 13:11:48,654 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:11:48 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 13:43:15,363 - src.task_processor - DEBUG - TaskProcessor initialized successfully
+2024-09-21 13:43:15,364 - __main__ - INFO - NodeManager started
+2024-09-21 13:43:15,364 - src.ipc.http_utils - INFO - Creating HTTP server on 127.0.0.1:8081
+2024-09-21 13:43:15,364 - __main__ - INFO - NodeManager initialized successfully
+2024-09-21 13:43:15,364 - src.ipc.http_utils - INFO - Starting HTTP server
+2024-09-21 13:43:15,365 - src.ipc.http_utils - INFO - HTTP server started on 127.0.0.1:8081
+2024-09-21 13:43:15,365 - __main__ - INFO - NodeManager is listening on http://127.0.0.1:8081
+2024-09-21 13:43:15,365 - __main__ - INFO - Nginx is listening on http://127.0.0.1:8080
+2024-09-21 13:43:15,365 - __main__ - INFO - NodeManager is running behind Nginx at http://127.0.0.1:8080
+2024-09-21 13:43:15,365 - __main__ - DEBUG - Attempting to start worker worker_1 on port 8082
+2024-09-21 13:43:15,365 - src.node_manager.run_worker - INFO - Starting worker process: worker_1 on port 8082
+2024-09-21 13:43:15,365 - src.node_manager.run_worker - DEBUG - Worker script permissions: 775
+2024-09-21 13:43:15,365 - src.node_manager.run_worker - DEBUG - Worker start command: /home/zilla/Documents/ALX/mini-distributed-task-processor/src/workers/worker 127.0.0.1 8081 worker_1
+2024-09-21 13:43:15,366 - src.node_manager.run_worker - INFO - Worker worker_1 started with PID 233995
+2024-09-21 13:43:15,473 - src.task_processor - DEBUG - TaskProcessor initialized successfully
+2024-09-21 13:43:15,474 - asyncio - DEBUG - Using selector: EpollSelector
+2024-09-21 13:43:15,476 - src.utils.config - DEBUG - Initializing Config with file: config/processor_config.ini
+2024-09-21 13:43:15,476 - src.utils.config - DEBUG - Reloading config from file: config/processor_config.ini
+2024-09-21 13:43:15,477 - src.utils.config - DEBUG - Config reloaded successfully
+2024-09-21 13:43:15,477 - src.utils.config - DEBUG - Config initialized successfully
+2024-09-21 13:43:15,477 - src.task_processor - DEBUG - Initializing TaskProcessor
+2024-09-21 13:43:15,477 - src.task_processor - DEBUG - Setting up logging
+2024-09-21 13:43:15,478 - src.task_processor - DEBUG - TaskProcessor initialized successfully
+2024-09-21 13:43:15,479 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:43:15,479 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 13:43:15,479 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:43:15 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 13:43:15,662 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:43:15,663 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 13:43:15,664 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:43:15 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 13:43:15,667 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:43:15,668 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 13:43:15,669 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:43:15 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 13:43:15,973 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:43:15,974 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 13:43:15,975 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:43:15 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 13:43:16,265 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:43:16,265 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 13:43:16,265 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:43:16 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 13:43:16,482 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:43:16,482 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 13:43:16,483 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:43:16 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 13:43:16,666 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:43:16,666 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 13:43:16,667 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:43:16 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 13:43:16,671 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:43:16,671 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 13:43:16,673 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:43:16 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 13:43:16,975 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:43:16,975 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 13:43:16,976 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:43:16 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 13:43:17,268 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:43:17,269 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 13:43:17,270 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:43:17 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 13:43:17,486 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:43:17,486 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 13:43:17,488 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:43:17 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 13:43:17,669 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:43:17,670 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 13:43:17,672 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:43:17 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 13:43:17,675 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:43:17,676 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 13:43:17,677 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:43:17 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 13:43:17,978 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:43:17,978 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 13:43:17,979 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:43:17 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 13:43:18,271 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:43:18,271 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 13:43:18,272 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:43:18 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 13:43:18,488 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:43:18,488 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 13:43:18,489 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:43:18 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 13:43:18,674 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:43:18,674 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 13:43:18,675 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:43:18 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 13:43:18,679 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:43:18,679 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 13:43:18,680 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:43:18 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 13:43:18,981 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:43:18,982 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 13:43:18,983 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:43:18 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 13:43:19,273 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:43:19,273 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 13:43:19,273 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:43:19 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 13:43:19,491 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:43:19,491 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 13:43:19,493 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:43:19 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 13:43:19,677 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:43:19,678 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 13:43:19,679 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:43:19 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 13:43:19,682 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:43:19,682 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 13:43:19,683 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:43:19 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 13:43:19,919 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:43:19,919 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 13:43:19,921 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:43:19 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 13:43:19,960 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:43:19,960 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 13:43:19,962 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:43:19 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 13:43:19,985 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:43:19,986 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 13:43:19,986 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:43:19 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 13:43:20,003 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:43:20,003 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 13:43:20,004 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:43:20 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 13:43:20,275 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:43:20,276 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 13:43:20,277 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:43:20 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 13:43:20,495 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:43:20,496 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 13:43:20,497 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:43:20 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 13:43:20,681 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:43:20,681 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 13:43:20,682 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:43:20 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 13:43:20,685 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:43:20,685 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 13:43:20,686 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:43:20 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 13:43:20,923 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:43:20,923 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 13:43:20,925 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:43:20 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 13:43:20,964 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:43:20,964 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 13:43:20,965 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:43:20 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 13:43:20,988 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:43:20,989 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 13:43:20,990 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:43:20 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 13:43:21,006 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:43:21,006 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 13:43:21,007 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:43:21 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 13:43:21,279 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:43:21,279 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 13:43:21,281 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:43:21 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 13:43:21,499 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:43:21,500 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 13:43:21,501 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:43:21 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 13:43:21,684 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:43:21,684 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 13:43:21,686 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:43:21 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 13:43:21,688 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:43:21,689 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 13:43:21,690 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:43:21 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 13:43:21,926 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:43:21,927 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 13:43:21,928 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:43:21 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 13:43:21,966 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:43:21,966 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 13:43:21,967 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:43:21 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 13:43:21,991 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:43:21,991 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 13:43:21,992 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:43:21 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 13:43:22,008 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:43:22,008 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 13:43:22,008 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:43:22 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 13:43:22,242 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:43:22 +0000] "GET /health HTTP/1.1" 200 282 "-" "curl/8.9.1"
+2024-09-21 13:43:22,276 - __main__ - INFO - Task received from 127.0.0.1 and queued:                     f64a570a-7f28-46cb-803a-f99a6b99e485 (Type: ip_data)
+2024-09-21 13:43:22,276 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:43:22 +0000] "POST /receive_task HTTP/1.0" 200 248 "-" "curl/8.9.1"
+2024-09-21 13:43:22,282 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:43:22,282 - __main__ - INFO - Assigning task f64a570a-7f28-46cb-803a-f99a6b99e485 to worker worker_1
+2024-09-21 13:43:22,282 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:43:22 +0000] "POST /process_task HTTP/1.1" 200 296 "-" "-"
+2024-09-21 13:43:22,423 - __main__ - INFO - Task received from 127.0.0.1 and queued:                     bb301956-35a6-4f31-96da-7c05986f54e7 (Type: ip_data)
+2024-09-21 13:43:22,424 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:43:22 +0000] "POST /receive_task HTTP/1.0" 200 248 "-" "curl/8.9.1"
+2024-09-21 13:43:22,502 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:43:22,503 - __main__ - INFO - Assigning task bb301956-35a6-4f31-96da-7c05986f54e7 to worker worker_1
+2024-09-21 13:43:22,503 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:43:22 +0000] "POST /process_task HTTP/1.1" 200 297 "-" "-"
+2024-09-21 13:43:22,546 - __main__ - INFO - Task received from 127.0.0.1 and queued:                     33d36907-531c-4220-88df-f93f5c53a360 (Type: ip_data)
+2024-09-21 13:43:22,546 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:43:22 +0000] "POST /receive_task HTTP/1.0" 200 248 "-" "curl/8.9.1"
+2024-09-21 13:43:22,671 - __main__ - INFO - Task received from 127.0.0.1 and queued:                     270e48a9-8697-4064-a17c-a1a96fff4211 (Type: ip_data)
+2024-09-21 13:43:22,672 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:43:22 +0000] "POST /receive_task HTTP/1.0" 200 248 "-" "curl/8.9.1"
+2024-09-21 13:43:22,687 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:43:22,687 - __main__ - INFO - Assigning task 33d36907-531c-4220-88df-f93f5c53a360 to worker worker_1
+2024-09-21 13:43:22,688 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:43:22 +0000] "POST /process_task HTTP/1.1" 200 296 "-" "-"
+2024-09-21 13:43:22,691 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:43:22,691 - __main__ - INFO - Assigning task 270e48a9-8697-4064-a17c-a1a96fff4211 to worker worker_1
+2024-09-21 13:43:22,692 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:43:22 +0000] "POST /process_task HTTP/1.1" 200 296 "-" "-"
+2024-09-21 13:43:22,803 - __main__ - INFO - Task received from 127.0.0.1 and queued:                     f7ffafda-daf9-4070-b9b7-8577db36098f (Type: ip_data)
+2024-09-21 13:43:22,803 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:43:22 +0000] "POST /receive_task HTTP/1.0" 200 248 "-" "curl/8.9.1"
+2024-09-21 13:43:22,929 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:43:22,929 - __main__ - INFO - Assigning task f7ffafda-daf9-4070-b9b7-8577db36098f to worker worker_1
+2024-09-21 13:43:22,930 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:43:22 +0000] "POST /process_task HTTP/1.1" 200 296 "-" "-"
+2024-09-21 13:43:22,932 - __main__ - INFO - Task received from 127.0.0.1 and queued:                     d68a8461-8b79-475d-aa8e-d8aa1c2f1516 (Type: ip_data)
+2024-09-21 13:43:22,933 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:43:22 +0000] "POST /receive_task HTTP/1.0" 200 248 "-" "curl/8.9.1"
+2024-09-21 13:43:22,969 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:43:22,969 - __main__ - INFO - Assigning task d68a8461-8b79-475d-aa8e-d8aa1c2f1516 to worker worker_1
+2024-09-21 13:43:22,970 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:43:22 +0000] "POST /process_task HTTP/1.1" 200 294 "-" "-"
+2024-09-21 13:43:22,993 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:43:22,993 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 13:43:22,993 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:43:22 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 13:43:23,009 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:43:23,009 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 13:43:23,010 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:43:23 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 13:43:23,050 - __main__ - INFO - Task received from 127.0.0.1 and queued:                     5f918550-3fec-4260-b2cd-42f980e9692d (Type: ip_data)
+2024-09-21 13:43:23,051 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:43:23 +0000] "POST /receive_task HTTP/1.0" 200 248 "-" "curl/8.9.1"
+2024-09-21 13:43:23,168 - __main__ - INFO - Task received from 127.0.0.1 and queued:                     d9ba7c6a-8d01-425c-a090-b5549a68edec (Type: ip_data)
+2024-09-21 13:43:23,169 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:43:23 +0000] "POST /receive_task HTTP/1.0" 200 248 "-" "curl/8.9.1"
+2024-09-21 13:43:23,284 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:43:23,284 - __main__ - INFO - Assigning task 5f918550-3fec-4260-b2cd-42f980e9692d to worker worker_1
+2024-09-21 13:43:23,285 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:43:23 +0000] "POST /process_task HTTP/1.1" 200 294 "-" "-"
+2024-09-21 13:43:23,288 - __main__ - INFO - Task received from 127.0.0.1 and queued:                     4df3e59b-515c-4f27-95e8-02adfd2b93f0 (Type: ip_data)
+2024-09-21 13:43:23,289 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:43:23 +0000] "POST /receive_task HTTP/1.0" 200 248 "-" "curl/8.9.1"
+2024-09-21 13:43:23,409 - __main__ - INFO - Task received from 127.0.0.1 and queued:                     8b3340c0-bdd8-4f67-a93a-3beca0cf67d2 (Type: ip_data)
+2024-09-21 13:43:23,410 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:43:23 +0000] "POST /receive_task HTTP/1.0" 200 248 "-" "curl/8.9.1"
+2024-09-21 13:43:23,504 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:43:23,504 - __main__ - INFO - Assigning task d9ba7c6a-8d01-425c-a090-b5549a68edec to worker worker_1
+2024-09-21 13:43:23,505 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:43:23 +0000] "POST /process_task HTTP/1.1" 200 296 "-" "-"
+2024-09-21 13:43:23,530 - __main__ - INFO - Task received from 127.0.0.1 and queued:                     5b9afeeb-ee33-4df7-b84b-53f24ed4d44b (Type: ip_data)
+2024-09-21 13:43:23,531 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:43:23 +0000] "POST /receive_task HTTP/1.0" 200 248 "-" "curl/8.9.1"
+2024-09-21 13:43:23,691 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:43:23,692 - __main__ - INFO - Assigning task 4df3e59b-515c-4f27-95e8-02adfd2b93f0 to worker worker_1
+2024-09-21 13:43:23,693 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:43:23 +0000] "POST /process_task HTTP/1.1" 200 297 "-" "-"
+2024-09-21 13:43:23,695 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:43:23,696 - __main__ - INFO - Assigning task 8b3340c0-bdd8-4f67-a93a-3beca0cf67d2 to worker worker_1
+2024-09-21 13:43:23,697 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:43:23 +0000] "POST /process_task HTTP/1.1" 200 296 "-" "-"
+2024-09-21 13:43:23,700 - __main__ - INFO - Task received from 127.0.0.1 and queued:                     6b5f23b1-51aa-427d-9002-c90bc6eb7356 (Type: ip_data)
+2024-09-21 13:43:23,702 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:43:23 +0000] "POST /receive_task HTTP/1.0" 200 248 "-" "curl/8.9.1"
+2024-09-21 13:43:23,865 - __main__ - INFO - Task received from 127.0.0.1 and queued:                     0aac96af-fb21-45bd-a6a7-93164f7481ad (Type: ip_data)
+2024-09-21 13:43:23,866 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:43:23 +0000] "POST /receive_task HTTP/1.0" 200 248 "-" "curl/8.9.1"
+2024-09-21 13:43:23,932 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:43:23,932 - __main__ - INFO - Assigning task 5b9afeeb-ee33-4df7-b84b-53f24ed4d44b to worker worker_1
+2024-09-21 13:43:23,932 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:43:23 +0000] "POST /process_task HTTP/1.1" 200 297 "-" "-"
+2024-09-21 13:43:23,972 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:43:23,972 - __main__ - INFO - Assigning task 6b5f23b1-51aa-427d-9002-c90bc6eb7356 to worker worker_1
+2024-09-21 13:43:23,973 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:43:23 +0000] "POST /process_task HTTP/1.1" 200 295 "-" "-"
+2024-09-21 13:43:23,994 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:43:23,995 - __main__ - INFO - Assigning task 0aac96af-fb21-45bd-a6a7-93164f7481ad to worker worker_1
+2024-09-21 13:43:23,995 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:43:23 +0000] "POST /process_task HTTP/1.1" 200 297 "-" "-"
+2024-09-21 13:43:23,998 - __main__ - INFO - Task received from 127.0.0.1 and queued:                     5405a0c2-09ad-45ad-b467-d9915228a7f7 (Type: ip_data)
+2024-09-21 13:43:23,999 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:43:23 +0000] "POST /receive_task HTTP/1.0" 200 248 "-" "curl/8.9.1"
+2024-09-21 13:43:24,010 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:43:24,010 - __main__ - INFO - Assigning task 5405a0c2-09ad-45ad-b467-d9915228a7f7 to worker worker_1
+2024-09-21 13:43:24,011 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:43:24 +0000] "POST /process_task HTTP/1.1" 200 295 "-" "-"
+2024-09-21 13:43:24,140 - __main__ - INFO - Task received from 127.0.0.1 and queued:                     9501fe3e-5ea4-4fb0-be34-2964bc8dca17 (Type: ip_data)
+2024-09-21 13:43:24,141 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:43:24 +0000] "POST /receive_task HTTP/1.0" 200 248 "-" "curl/8.9.1"
+2024-09-21 13:43:24,265 - __main__ - INFO - Task received from 127.0.0.1 and queued:                     60ed46f4-f41f-4bb1-b31c-ecd3b3d05ede (Type: ip_data)
+2024-09-21 13:43:24,266 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:43:24 +0000] "POST /receive_task HTTP/1.0" 200 248 "-" "curl/8.9.1"
+2024-09-21 13:43:24,288 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:43:24,289 - __main__ - INFO - Assigning task 9501fe3e-5ea4-4fb0-be34-2964bc8dca17 to worker worker_1
+2024-09-21 13:43:24,289 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:43:24 +0000] "POST /process_task HTTP/1.1" 200 295 "-" "-"
+2024-09-21 13:43:24,381 - __main__ - INFO - Task received from 127.0.0.1 and queued:                     12541af7-40ed-406d-8499-aec8c9103d2a (Type: ip_data)
+2024-09-21 13:43:24,382 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:43:24 +0000] "POST /receive_task HTTP/1.0" 200 248 "-" "curl/8.9.1"
+2024-09-21 13:43:24,507 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:43:24,507 - __main__ - INFO - Assigning task 60ed46f4-f41f-4bb1-b31c-ecd3b3d05ede to worker worker_1
+2024-09-21 13:43:24,509 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:43:24 +0000] "POST /process_task HTTP/1.1" 200 297 "-" "-"
+2024-09-21 13:43:24,518 - __main__ - INFO - Task received from 127.0.0.1 and queued:                     9bd1481a-a068-468e-b6c9-f58413ecd65f (Type: ip_data)
+2024-09-21 13:43:24,519 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:43:24 +0000] "POST /receive_task HTTP/1.0" 200 248 "-" "curl/8.9.1"
+2024-09-21 13:43:24,661 - __main__ - INFO - Task received from 127.0.0.1 and queued:                     d0907219-be63-4a54-a110-4d0f3b4579ce (Type: ip_data)
+2024-09-21 13:43:24,662 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:43:24 +0000] "POST /receive_task HTTP/1.0" 200 248 "-" "curl/8.9.1"
+2024-09-21 13:43:24,695 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:43:24,695 - __main__ - INFO - Assigning task 12541af7-40ed-406d-8499-aec8c9103d2a to worker worker_1
+2024-09-21 13:43:24,696 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:43:24 +0000] "POST /process_task HTTP/1.1" 200 296 "-" "-"
+2024-09-21 13:43:24,700 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:43:24,701 - __main__ - INFO - Assigning task 9bd1481a-a068-468e-b6c9-f58413ecd65f to worker worker_1
+2024-09-21 13:43:24,702 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:43:24 +0000] "POST /process_task HTTP/1.1" 200 294 "-" "-"
+2024-09-21 13:43:24,795 - __main__ - INFO - Task received from 127.0.0.1 and queued:                     ad9ca539-6c7b-4f62-8970-9941e1288131 (Type: ip_data)
+2024-09-21 13:43:24,796 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:43:24 +0000] "POST /receive_task HTTP/1.0" 200 248 "-" "curl/8.9.1"
+2024-09-21 13:43:24,935 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:43:24,936 - __main__ - INFO - Assigning task d0907219-be63-4a54-a110-4d0f3b4579ce to worker worker_1
+2024-09-21 13:43:24,938 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:43:24 +0000] "POST /process_task HTTP/1.1" 200 296 "-" "-"
+2024-09-21 13:43:24,949 - __main__ - INFO - Task received from 127.0.0.1 and queued:                     4151445c-3161-4bf3-84ed-969beaf5c198 (Type: ip_data)
+2024-09-21 13:43:24,951 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:43:24 +0000] "POST /receive_task HTTP/1.0" 200 248 "-" "curl/8.9.1"
+2024-09-21 13:43:24,974 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:43:24,975 - __main__ - INFO - Assigning task ad9ca539-6c7b-4f62-8970-9941e1288131 to worker worker_1
+2024-09-21 13:43:24,976 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:43:24 +0000] "POST /process_task HTTP/1.1" 200 294 "-" "-"
+2024-09-21 13:43:24,999 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:43:24,999 - __main__ - INFO - Assigning task 4151445c-3161-4bf3-84ed-969beaf5c198 to worker worker_1
+2024-09-21 13:43:25,002 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:43:24 +0000] "POST /process_task HTTP/1.1" 200 294 "-" "-"
+2024-09-21 13:43:25,012 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:43:25,012 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 13:43:25,013 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:43:25 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 13:43:25,079 - __main__ - INFO - Task received from 127.0.0.1 and queued:                     403f6205-f223-43cb-ae6f-3f5baf6fffee (Type: ip_data)
+2024-09-21 13:43:25,080 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:43:25 +0000] "POST /receive_task HTTP/1.0" 200 248 "-" "curl/8.9.1"
+2024-09-21 13:43:25,222 - __main__ - INFO - Task received from 127.0.0.1 and queued:                     b78f0758-c34d-446a-8217-3fdc00bc5dae (Type: ip_data)
+2024-09-21 13:43:25,223 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:43:25 +0000] "POST /receive_task HTTP/1.0" 200 248 "-" "curl/8.9.1"
+2024-09-21 13:43:25,291 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:43:25,292 - __main__ - INFO - Assigning task 403f6205-f223-43cb-ae6f-3f5baf6fffee to worker worker_1
+2024-09-21 13:43:25,292 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:43:25 +0000] "POST /process_task HTTP/1.1" 200 295 "-" "-"
+2024-09-21 13:43:25,368 - src.node_manager.run_worker - WARNING - Timeout while waiting for worker worker_1 output
+2024-09-21 13:43:25,368 - src.node_manager.run_worker - WARNING - No stderr output from worker worker_1
+2024-09-21 13:43:25,511 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:43:25,511 - __main__ - INFO - Assigning task b78f0758-c34d-446a-8217-3fdc00bc5dae to worker worker_1
+2024-09-21 13:43:25,513 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:43:25 +0000] "POST /process_task HTTP/1.1" 200 295 "-" "-"
+2024-09-21 13:43:25,698 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:43:25,699 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 13:43:25,700 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:43:25 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 13:43:25,705 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:43:25,706 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 13:43:25,706 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:43:25 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 13:43:25,940 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:43:25,941 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 13:43:25,942 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:43:25 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 13:43:25,978 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:43:25,979 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 13:43:25,980 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:43:25 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 13:43:26,006 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:43:26,006 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 13:43:26,007 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:43:26 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 13:43:26,015 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:43:26,015 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 13:43:26,016 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:43:26 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 13:43:26,295 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:43:26,295 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 13:43:26,297 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:43:26 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"
+2024-09-21 13:43:26,515 - __main__ - INFO - Received task request from worker: worker_1
+2024-09-21 13:43:26,515 - __main__ - INFO - No tasks available for worker worker_1
+2024-09-21 13:43:26,517 - aiohttp.access - INFO - 127.0.0.1 [21/Sep/2024:10:43:26 +0000] "POST /process_task HTTP/1.1" 200 191 "-" "-"

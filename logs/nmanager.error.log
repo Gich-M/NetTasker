@@ -1,0 +1,11 @@
+2024-09-19 08:59:28,954 - src.node_manager.run_worker - WARNING - Timeout while waiting for worker worker_1 output
+2024-09-19 08:59:28,954 - src.node_manager.run_worker - WARNING - No stderr output from worker worker_1
+2024-09-19 09:29:54,079 - src.node_manager.run_worker - WARNING - Timeout while waiting for worker worker_1 output
+2024-09-19 09:29:54,080 - src.node_manager.run_worker - WARNING - No stderr output from worker worker_1
+2024-09-19 09:29:59,082 - src.utils.helpers - ERROR - Failed to check node health for 127.0.0.1:8082: Cannot connect to host 127.0.0.1:8082 ssl:default [Connect call failed ('127.0.0.1', 8082)]
+2024-09-19 09:29:59,083 - src.node_manager.run_worker - WARNING - Worker worker_1 failed initial health check
+2024-09-19 09:30:00,095 - src.utils.helpers - ERROR - Failed to check node health for 127.0.0.1:8082: Cannot connect to host 127.0.0.1:8082 ssl:default [Connect call failed ('127.0.0.1', 8082)]
+2024-09-19 09:30:00,095 - __main__ - WARNING - Worker worker_1 health check failed
+2024-09-19 09:30:00,096 - __main__ - WARNING - Worker worker_1 is inactive, reassigned                     0 tasks
+2024-09-21 13:43:25,368 - src.node_manager.run_worker - WARNING - Timeout while waiting for worker worker_1 output
+2024-09-21 13:43:25,368 - src.node_manager.run_worker - WARNING - No stderr output from worker worker_1
